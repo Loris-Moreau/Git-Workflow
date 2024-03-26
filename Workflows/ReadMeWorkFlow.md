@@ -1,5 +1,6 @@
 # Workflow for ReadMe
 
+## Colored Blocks
 > [!Note]
 > Hi, This is my personal Workflow I use for Github.
 
@@ -12,7 +13,6 @@
 >[!Tip]
 >Tips
 
-<br>
 
-### Link To Workflow Repository
-![Link](https://github.com/Loris-Moreau/Git-Workflow "Link to WorkFlow Repo")
+## Links
+[Link](https://github.com/Loris-Moreau/Git-Workflow.git "Link to WorkFlow Repo")
