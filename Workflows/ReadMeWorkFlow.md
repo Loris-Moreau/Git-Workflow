@@ -2,17 +2,53 @@
 
 ## Colored Blocks
 > [!Note]
-> Hi, This is my personal Workflow I use for Github.
+> Note
 
->[!Warning]
->These are in no way official or guaranteed to work.
+> [!Warning]
+> Warning
 
 > [!Caution]
 > Caution
 
->[!Tip]
->Tips
+> [!Tip]
+> Tips
+> > You can nest the text
+> > > More than needed
+> > > > Always more
+> 
+> > > And you can split them.
 
+<br>
+
+## Lists
+* Item 1
+* * Item 1.1
+  * * Item 1.1.1
+
+- Item 2
+- - Item 2.1
+  - - Item 2.1.1
+
+Can be left empty if needed
+
+* 
+* * 
+  * *
+
+- 
+
+<br>
+
+### You can also make Lines
+
+Like so
+- - -
+or
+-
+
+<br>
 
 ## Links
 [Link](https://github.com/Loris-Moreau/Git-Workflow.git "Link to WorkFlow Repo")
+
+<br>
