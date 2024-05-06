@@ -1,7 +1,5 @@
 # How to smoothly use GitHub and avoid problems
 
-<a name="top"></a>
-
 ## Remember to fetch and pull REGULARLY and to always have the editor closed before pulling or pushing *(wait a few seconds for it to properly close)*
 
 If you have any doubts or problems, check with your lead programmer, **_avoid_** resolving git issues yourself.
@@ -107,7 +105,4 @@ In case of “Assets” or “Refactor” and/or if there are more than 10 affec
 
 <p align="center">
 Good Luck on your journey young padawan, may the goblin lords be with you.
-<br>
-<br>
-[Back to top](#top)
 </p>
