@@ -26,12 +26,17 @@ If you have any doubts or problems, check with your lead programmer, **_do not_*
 6. Do your work. And save everything
 
 7. On Github Desktop, discard every file you haven’t locked or just created.
+
+![Discard Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Discard%20Ref.png)
+
 > [!warning]
 > - If you’ve opened other files to check things, your editor might consider them modified even if it’s not the case.
 
-8. Fetch and pull *(don’t forget to close the editor)*
+8. Fetch and pull *(don’t forget to close your editor)*
    - a. If you are asked to stash your changes, it means that you are trying to pull files that you have also modified, check the commit history online *(not locally as you will only have what you’ve already pulled)*
    - b. If somebody else has modified a file that you have locked, check with them and the leads *(yours & the programming lead)*.
+   - 
+![Stash Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Stash%20Ref.png)
 
 9. If everything seems clean after *sub-step a*. but it‘s still not working, check with the lead programmer. (ps: make sure you don't have a conflict with yourself, yes it can happen, *all hail technology, so smart*)
   
