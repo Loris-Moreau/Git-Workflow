@@ -1,8 +1,11 @@
 # How to smoothly use GitHub and avoid problems
 
+<a name="top"></a>
+
 ## Remember to fetch and pull REGULARLY and to always have the editor closed before pulling or pushing *(wait a few seconds for it to properly close)*
 
 If you have any doubts or problems, check with your lead programmer, **_avoid_** resolving git issues yourself.
+   > ps: That why we have Programming leads & Asset managers.
 
 #### If you need to work on a file, here is the procedure :
 
@@ -34,10 +37,12 @@ If you have any doubts or problems, check with your lead programmer, **_avoid_**
 > - If you’ve opened other files to check things, your editor might consider them modified even if it’s not the case.
 
 8. Fetch and pull *(don’t forget to close your editor)*
-   - a. If you are asked to stash your changes, it means that you are trying to pull files that you have also modified, check the commit history online *(not locally as you will only have what you’ve already pulled)*
-   - b. If somebody else has modified a file that you have locked, check with them and the leads *(yours & the programming lead)*.
-   - 
+   - a. If you are asked to stash your changes, it means that you are trying to pull files that you have also modified,
+        check the commit history online *(not locally as you will only have what you’ve already pulled)*.
+
 ![Stash Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Stash%20Ref.png)
+
+   - b. If somebody else has modified a file that you have locked, check with them and the leads *(yours & the programming lead)*.
 
 9. If everything seems clean after *sub-step a*. but it‘s still not working, check with the lead programmer. (ps: make sure you don't have a conflict with yourself, yes it can happen, *all hail technology, so smart*)
   
@@ -75,7 +80,14 @@ Types :
 - [Engine] : modified settings or plugins.
 - [Refactor] : Moved or renamed files  (remember to always fix redirectors *(if there are any)*).
 
-If a modification changes the way something works drastically and may cascade to other files, add a **“!”** after the type and **“BREAKING CHANGE : description of change”** before the long description.
+>[!note]
+> There are many more Types you can use,
+>
+> Just make sure it's comprehended/Understood by the entire team
+>
+>*(and talk about it with the programming lead, and the assets manager (if you have one))*.
+
+If a modification changes the way something works drastically and may cascade to other files, add a **“!”** after the [type] and **“BREAKING CHANGE : ”** before the long description.
 Like so :
 
 ![Commit Ref 2](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Commit%20Ref%202.png)
@@ -86,6 +98,16 @@ Affected files should be presented as such :
 - (removed) file5, file6
 
 In case of “Assets” or “Refactor” and/or if there are more than 10 affected files, feel free to skip that step.
-*(ps: if there are more than 5 modified files you should commit more often)*
+*(ps: if there are more than 7 modified files you should commit more often)*
 
+<br>
+<br>
+<br>
+<br>
+
+<p align="center">
 Good Luck on your journey young padawan, may the goblin lords be with you.
+<br>
+<br>
+[Back to top](#top)
+</p>
