@@ -2,7 +2,7 @@
 
 ## Remember to fetch and pull REGULARLY and to always have the editor closed before pulling *(wait a few seconds for it to properly close)*
 
-If you have any doubts or problems, check with your lead programmer, **_do not_** try to resolve git issues yourself.
+If you have any doubts or problems, check with your lead programmer, **_avoid_** resolving git issues yourself.
 
 #### If you need to work on a file, here is the procedure :
 
