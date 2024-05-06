@@ -7,30 +7,35 @@ If you have any doubts or problems, check with your lead programmer, **_do not_*
 #### If you need to work on a file, here is the procedure :
 
 1. Go to GitHub Desktop and fetch.
-   If there are files to pull, close your editor and then pull
 
-2. Go on the Discord server, find the git channel. Lock for the files you need, if they are free, lock them
+   ![Fetch Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Fetch%20Ref.png)
+
+2. If there are files to pull, close your editor and then pull
+
+   ![Pull Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Pull%20Ref.png)
+
+3. Go on the Discord server, find the git channel. Lock for the files you need, if they are free, lock them
    - example : File_1 : Taken 🛑
    - example : File_1 : Free 🟢
 
-3. If they have been locked for a long time, ping the last person who used them and ask if they’re still working on them. 
+4. If they have been locked for a long time, ping the last person who used them and ask if they’re still working on them. 
    If you can’t find them on the channel but think they may be used, do not hesitate to ping.
 
-4. If the files you need have just been freed, do not forget to pull them again.
+5. If the files you need have just been freed, do not forget to pull them again.
 
-5. Do your work. And save everything
+6. Do your work. And save everything
 
-6. On Github Desktop, discard every file you haven’t locked or just created.
+7. On Github Desktop, discard every file you haven’t locked or just created.
 > [!warning]
 > - If you’ve opened other files to check things, your editor might consider them modified even if it’s not the case.
 
-7. Fetch and pull *(don’t forget to close the editor)*
+8. Fetch and pull *(don’t forget to close the editor)*
    - a. If you are asked to stash your changes, it means that you are trying to pull files that you have also modified, check the commit history online *(not locally as you will only have what you’ve already pulled)*
    - b. If somebody else has modified a file that you have locked, check with them and the leads *(yours & the programming lead)*.
 
-8. If everything seems clean after *sub-step a*. but it‘s still not working, check with the lead programmer. (ps: make sure you don't have a conflict with yourself, yes it can happen, *all hail technology, so smart*)
+9. If everything seems clean after *sub-step a*. but it‘s still not working, check with the lead programmer. (ps: make sure you don't have a conflict with yourself, yes it can happen, *all hail technology, so smart*)
   
-9. In case of merge conflict,
+10. In case of merge conflict,
     ${\color{Red}{DO \space NOT \space RESOLVE \space THEM \space BY \space YOURSELF, \space CHECK \space WITH \space THE \space LEAD \space PROGRAMMER \space IMMEDIATELY}}$
 
 
@@ -38,8 +43,10 @@ If you have any doubts or problems, check with your lead programmer, **_do not_*
 > After an aborted pull due to stash or merge conflict, you may have an incomplete pull, some files went through but not all, trying to pull again like that will only cause a repeat of the problem. 
 > You can discard or stash & discard those files before pulling again.
 
-10. Commit your changes (convention further down) and push. 
+11. Commit your changes (convention further down) and push. 
    - After waiting for the push to complete, go on Discord and free your files.
+
+![Push Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Push%20Ref.png)
 
 ### Commits naming convention :
 
