@@ -7,7 +7,7 @@ If you have any doubts or problems, check with your lead programmer, **_avoid_**
 #### If you need to work on a file, here is the procedure :
 
 1. Go to GitHub Desktop and fetch.
-   - I do recomend closing your editor before fetching to avoid problems
+   - I do recommend closing your editor before fetching to avoid problems
 
    ![Fetch Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Fetch%20Ref.png)
    ![Fetch Request Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fetch%20Request%20Ref.png)
