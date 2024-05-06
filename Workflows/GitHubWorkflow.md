@@ -7,25 +7,26 @@ If you have any doubts or problems, check with your lead programmer, **_avoid_**
 #### If you need to work on a file, here is the procedure :
 
 1. Go to GitHub Desktop and fetch.
+   - I do recomend closing your editor before fetching to avoid problems
 
    ![Fetch Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Fetch%20Ref.png)
    ![Fetch Request Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fetch%20Request%20Ref.png)
-2. If there are files to pull, close your editor and then pull
+3. If there are files to pull, close your editor and then pull
 
    ![Pull Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Pull%20Ref.png)
 
-3. Go on the Discord server, find the git channel. Lock for the files you need, if they are free, lock them
+4. Go on the Discord server, find the git channel. Lock for the files you need, if they are free, lock them
    - example : File_1 : Taken 🛑
    - example : File_1 : Free 🟢
 
-4. If they have been locked for a long time, ping the last person who used them and ask if they’re still working on them. 
+5. If they have been locked for a long time, ping the last person who used them and ask if they’re still working on them. 
    If you can’t find them on the channel but think they may be used, do not hesitate to ping.
 
-5. If the files you need have just been freed, do not forget to pull them again.
+6. If the files you need have just been freed, do not forget to pull them again.
 
-6. Do your work. And save everything
+7. Do your work. And save everything
 
-7. On Github Desktop, discard every file you haven’t locked or just created.
+8. On Github Desktop, discard every file you haven’t locked or just created.
 
 ![Discard Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Discard%20Ref.png)
 
