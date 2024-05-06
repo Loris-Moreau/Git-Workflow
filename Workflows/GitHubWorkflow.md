@@ -21,8 +21,8 @@ If you have any doubts or problems, check with your lead programmer, **_do not_*
 5. Do your work. And save everything
 
 6. On Github Desktop, discard every file you haven’t locked or just created.
-   > [!warning]
-   > - If you’ve opened other files to check things, your editor might consider them modified even if it’s not the case.
+> [!warning]
+> - If you’ve opened other files to check things, your editor might consider them modified even if it’s not the case.
 
 7. Fetch and pull *(don’t forget to close the editor)*
    - a. If you are asked to stash your changes, it means that you are trying to pull files that you have also modified, check the commit history online *(not locally as you will only have what you’ve already pulled)*
@@ -44,7 +44,8 @@ If you have any doubts or problems, check with your lead programmer, **_do not_*
 ### Commits naming convention :
 
 A commit should look like this :
-# Permalink to "Commit ref 1" here
+
+![Commit Ref 1](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Commit%20Ref%201.png)
 
 Types :
 - [Add] : added something, 
@@ -56,9 +57,10 @@ Types :
 - [Engine] : modified settings or plugins.
 - [Refactor] : Moved or renamed files  (remember to always fix redirectors *(if there are any)*).
 
-If a modification changes the way something works drastically and may cascade to other files, add a **“!”** after the type and **“BREAKING CHANGE: description of change”** before the long description.
+If a modification changes the way something works drastically and may cascade to other files, add a **“!”** after the type and **“BREAKING CHANGE : description of change”** before the long description.
 Like so :
-# Permalink "Commit ref 2" here
+
+![Commit Ref 2](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Commit%20Ref%202.png)
 
 Affected files should be presented as such :
 - (added) file1, file2
