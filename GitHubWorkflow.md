@@ -25,13 +25,17 @@ If you have any doubts or problems, check with your lead programmer, **_do not_*
    > - If you’ve opened other files to check things, your editor might consider them modified even if it’s not the case.
 
 7. Fetch and pull *(don’t forget to close the editor)*
-   - a. If you are asked to stash your changes, it means that you are trying to pull files that you have also modified, check **[step 5](https://github.com/Loris-Moreau/Git-Workflow/blob/main/GitHubWorkflow.md#L21 "Link to Step 5")** again, if it’s good, check the commit history online, *(not locally as you will only have what you’ve already pulled)*.
+   - a. If you are asked to stash your changes, it means that you are trying to pull files that you have also modified, check the commit history online *(not locally as you will only have what you’ve already pulled)*
    - b. If somebody else has modified a file that you have locked, check with them and the leads *(yours & the programming lead)*.
 
+8. If everything seems clean after *sub-step a*. but it‘s still not working, check with the lead programmer. (ps: make sure you don't have a conflict with yourself, yes it can happen, *all hail technology, so smart*)
+  
+9. In case of merge conflict,
+    ${\color{Red}{DO \space NOT \space RESOLVE \space THEM \space BY \space YOURSELF, \space CHECK \space WITH \space THE \space LEAD \space PROGRAMMER \space IMMEDIATELY}}$
 
-If everything seems clean after sub-step a. but it‘s still not working, check with the lead programmer.
-In case of merge conflict, DO NOT RESOLVE THEM BY YOURSELF UNDER ANY CIRCUMSTANCE, CHECK WITH THE LEAD PROGRAMMER IMMEDIATELY !!
-After an aborted pull due to stash or merge conflict, you may have an incomplete pull, some files went through but not all, trying to pull again like that will only cause a repeat of the problem. You can discard or stash & discard those files before pulling again.
+
+> [!caution]
+> After an aborted pull due to stash or merge conflict, you may have an incomplete pull, some files went through but not all, trying to pull again like that will only cause a repeat of the problem. You can discard or stash & discard those files before pulling again.
 
 Commit your changes (convention further down) and push.
 
