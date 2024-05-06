@@ -11,7 +11,7 @@ If you have any doubts or problems, check with your lead programmer, **_do not_*
    ![Fetch Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Fetch%20Ref.png)
 
 2. If there are files to pull, close your editor and then pull
-
+hi
    ![Pull Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Pull%20Ref.png)
 
 3. Go on the Discord server, find the git channel. Lock for the files you need, if they are free, lock them
