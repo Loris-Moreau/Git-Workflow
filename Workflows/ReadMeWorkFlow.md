@@ -37,8 +37,18 @@ Can be left empty if needed
 
 - 
 
-<br>
+<br> 
 
+<details>
+  <summary>Markdown</summary>
+
+-  one sheep
+-  two sheep
+-  three sheep
+
+</details>
+
+<br>
 ### You can also make Lines
 
 Like so
