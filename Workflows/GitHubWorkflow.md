@@ -9,7 +9,7 @@ If you have any doubts or problems, check with your lead programmer, **_do not_*
 1. Go to GitHub Desktop and fetch.
 
    ![Fetch Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Fetch%20Ref.png)
-
+   ![Fetch Request Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fetch%20Request%20Ref.png)
 2. If there are files to pull, close your editor and then pull
 hi
    ![Pull Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Pull%20Ref.png)
@@ -43,6 +43,11 @@ hi
 10. In case of merge conflict,
     ${\color{Red}{DO \space NOT \space RESOLVE \space THEM \space BY \space YOURSELF, \space CHECK \space WITH \space THE \space LEAD \space PROGRAMMER \space IMMEDIATELY}}$
 
+![Merge Conflict Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Merge%20Conflict%20Ref.png)
+
+Success look like this : 
+
+![Merge Success Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Merge%20Success%20Ref.png)
 
 > [!caution]
 > After an aborted pull due to stash or merge conflict, you may have an incomplete pull, some files went through but not all, trying to pull again like that will only cause a repeat of the problem. 
