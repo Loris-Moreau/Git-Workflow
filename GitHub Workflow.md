@@ -5,23 +5,22 @@
 ### If you have any doubts or problems, check with your lead programmer, **_do not_** try to resolve git issues yourself.
 
 <br>
-<br>
 
-If you need to work on a file that has been pushed to the Github repository, here is the procedure:
+If you need to work on a file that has been pushed to the Github repository, here is the procedure :
 
-Go to GitHub Desktop and fetch. Desktop fetches automatically at regular intervals
+1. Go to GitHub Desktop and fetch. Desktop fetches automatically at regular intervals
 If there are files to pull, close UE and pull
 
-Go on the Discord server, find the git channel
-Look for the files you need, if they are free, lock them
-example : BP_Weapon : Taken 🛑
-example : BP_Weapon : Free 🟢
-If they have been locked for a long time, ping the last person who used them and ask if they’re still working on them
+2. Go on the Discord server, find the git channel. Look for the files you need, if they are free, lock them
+   - example : File_1 : Taken 🛑
+   - example : File_1 : Free 🟢
+
+3. If they have been locked for a long time, ping the last person who used them and ask if they’re still working on them
 If you can’t find them on the channel but think they may be used, do not hesitate to ping.
 
-If the files you need have just been freed, do not forget to pull them again.
+4. If the files you need have just been freed, do not forget to pull them again.
 
-Do your work. And save everything
+5. Do your work. And save everything
 
 On Github Desktop, discard every file you haven’t locked or just created.
 If you’ve opened other files to check things, UE may consider them modified even if it’s not the case.
