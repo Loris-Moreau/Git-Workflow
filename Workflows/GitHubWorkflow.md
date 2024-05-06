@@ -1,6 +1,6 @@
 # How to smoothly use GitHub and avoid problems
 
-## Remember to fetch and pull REGULARLY and to always have the editor closed before pulling *(wait a few seconds for it to properly close)*
+## Remember to fetch and pull REGULARLY and to always have the editor closed before pulling / pushing *(wait a few seconds for it to properly close)*
 
 If you have any doubts or problems, check with your lead programmer, **_avoid_** resolving git issues yourself.
 
