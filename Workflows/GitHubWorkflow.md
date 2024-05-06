@@ -59,7 +59,7 @@ Success look like this :
 > After an aborted pull due to stash or merge conflict, you may have an incomplete pull, some files went through but not all, trying to pull again like that will only cause a repeat of the problem. 
 > You can discard or stash & discard those files before pulling again.
 
-11. Commit your changes (convention further down) and push. 
+11. Commit your changes (see convention further down) and push. 
    - After waiting for the push to complete, go on Discord and free your files.
 
 ![Push Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Push%20Ref.png)
