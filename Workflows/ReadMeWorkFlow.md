@@ -52,3 +52,7 @@ or
 [Link](https://github.com/Loris-Moreau/Git-Workflow.git "Link to WorkFlow Repo")
 
 <br>
+
+ ${\color{Red}{Colored \space Text}}$
+ $${\color{Red}{Centered \space Colored \space Text}}$$
+ ${\color{Red}{Multi \space \color{lightblue} Colored \space \color{green} Text}}$
