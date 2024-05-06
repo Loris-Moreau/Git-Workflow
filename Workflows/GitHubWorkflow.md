@@ -21,7 +21,7 @@ If you have any doubts or problems, check with your lead programmer, **_do not_*
 5. Do your work. And save everything
 
 6. On Github Desktop, discard every file you haven’t locked or just created.
-> [!warning]
+   > [!warning]
    > - If you’ve opened other files to check things, your editor might consider them modified even if it’s not the case.
 
 7. Fetch and pull *(don’t forget to close the editor)*
@@ -35,34 +35,37 @@ If you have any doubts or problems, check with your lead programmer, **_do not_*
 
 
 > [!caution]
-> After an aborted pull due to stash or merge conflict, you may have an incomplete pull, some files went through but not all, trying to pull again like that will only cause a repeat of the problem. You can discard or stash & discard those files before pulling again.
+> After an aborted pull due to stash or merge conflict, you may have an incomplete pull, some files went through but not all, trying to pull again like that will only cause a repeat of the problem. 
+> You can discard or stash & discard those files before pulling again.
 
-Commit your changes (convention further down) and push.
-
-After waiting for the push to complete, go on Discord and free your files.
+10. Commit your changes (convention further down) and push. 
+   - After waiting for the push to complete, go on Discord and free your files.
 
 ### Commits naming convention :
 
-A commit should look like this:
+A commit should look like this :
+# Permalink to "Commit ref 1" here
 
 Types :
-Add : added something
-- Feature : added or modified a feature
+- [Add] : added something, 
+- - (Feature) : added a feature.
+- - (Assets) : added assets, modified map.
+- [Feature] : modified a feature.
+- [Assets] : modified assets, modified map.
+- [Fix] : Fixed a bug.
+- [Engine] : modified settings or plugins.
+- [Refactor] : Moved or renamed files  (remember to always fix redirectors *(if there are any)*).
 
-  
-Fix : Fixed a bug
-Engine : modified settings or plugins
-Assets : added or modified assets, modified map
-Refactor : Moved or renamed files  (remember to always fix redirectors)
+If a modification changes the way something works drastically and may cascade to other files, add a **“!”** after the type and **“BREAKING CHANGE: description of change”** before the long description.
+Like so :
+# Permalink "Commit ref 2" here
 
-If a modification changes the way something works drastically and may cascade to other files, add a “!” after the type and “BREAKING CHANGE: description of change” before the long description.
+Affected files should be presented as such :
+- (added) file1, file2
+- (updated) file3, file4
+- (removed) file5, file6
 
+In case of “Assets” or “Refactor” and/or if there are more than 10 affected files, feel free to skip that step.
+*(ps: if there are more than 5 modified files you should commit more often)*
 
-Affected files should be presented as such:
-(added) file1, file2
-(updated) file3, file4
-(removed) file5, file6
-
-In case of “Assets” or “Refactor”, if there are more than 10 affected files, feel free to skip that step.
 Good Luck on your journey young padawan, may the goblin lords be with you.
-
