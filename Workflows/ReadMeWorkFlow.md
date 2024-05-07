@@ -107,10 +107,12 @@ Bold
 **Lorem ipsum dolor sit amet**
 __Lorem ipsum dolor sit amet__
 <strong>Lorem ipsum dolor sit amet</strong>
+
 Italic
 *Lorem ipsum dolor sit amet*
 _Lorem ipsum dolor sit amet _
 <em>Lorem ipsum dolor sit amet</em>
+
 Bold and Italic
 **_Lorem ipsum dolor sit amet_**
 <strong><em>Lorem ipsum dolor sit amet</em></strong>
@@ -153,7 +155,7 @@ Blockquotes
 > Lorem ipsum dolor sit amet
 >> Lorem ipsum dolor sit amet
 >>> Lorem ipsum dolor sit amet
-> **The quick brown fox** *jumps over the lazy dog.*
+> **Lorem ipsum** *dolor sit amet*
 ```
 
 > Lorem ipsum dolor sit amet
@@ -429,8 +431,8 @@ Default    | Left align | Center align | Right align
 <td>
 <pre lang="js">
 console.log(fullName); // undefined
-fullName = "Dariana Trahan";
-console.log(fullName); // Dariana Trahan
+fullName = "John Doe";
+console.log(fullName); // John Doe
 var fullName;
 </pre>
 </td>
@@ -438,8 +440,8 @@ var fullName;
 <pre lang="js">
 var fullName;
 console.log(fullName); // undefined
-fullName = "Dariana Trahan";
-console.log(fullName); // Dariana Trahan
+fullName = "John Doe";
+console.log(fullName); // John Doe
 </pre>
 </td>
 </tr>
@@ -455,8 +457,8 @@ console.log(fullName); // Dariana Trahan
 <td>
 <pre lang="js">
 console.log(fullName); // undefined
-fullName = "Dariana Trahan";
-console.log(fullName); // Dariana Trahan
+fullName = "John Doe";
+console.log(fullName); // John Doe
 var fullName;
 </pre>
 </td>
@@ -464,8 +466,8 @@ var fullName;
 <pre lang="js">
 var fullName;
 console.log(fullName); // undefined
-fullName = "Dariana Trahan";
-console.log(fullName); // Dariana Trahan
+fullName = "John Doe";
+console.log(fullName); // John Doe
 </pre>
 </td>
 </tr>
@@ -476,40 +478,40 @@ console.log(fullName); // Dariana Trahan
 ## Inline
 
 ```markdown
-[The-Ultimate-Markdown-Cheat-Sheet](https://github.com/lifeparticle/Markdown-Cheatsheet)
+[GitHub Readme Cheat Sheet](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md)
 ```
 
-[The-Ultimate-Markdown-Cheat-Sheet](https://github.com/lifeparticle/The-Ultimate-Markdown-Cheat-Sheet)
+[GitHub README Cheat Sheet](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md)
 
 ## Reference
 
 ```markdown
-[The-Ultimate-Markdown-Cheat-Sheet][reference text]
+[GitHub README Cheat Sheet][reference text]
 
-[The-Ultimate-Markdown-Cheat-Sheet][1]
+[GitHub README Cheat Sheet][1]
 
 [Markdown-Cheat-Sheet]
 
-[reference text]: https://github.com/lifeparticle/Markdown-Cheatsheet
-[1]: https://github.com/lifeparticle/Markdown-Cheatsheet
-[Markdown-Cheat-Sheet]: https://github.com/lifeparticle/Markdown-Cheatsheet
+[reference text]: https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md
+[1]: https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md
+[Markdown-Cheat-Sheet]: https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md
 ```
 
-[The-Ultimate-Markdown-Cheat-Sheet][reference text]
+[GitHub README Cheat Sheet][reference text]
 
-[The-Ultimate-Markdown-Cheat-Sheet][1]
+[GitHub README Cheat Sheet][1]
 
 [Markdown-Cheat-Sheet]
 
-[reference text]: https://github.com/lifeparticle/The-Ultimate-Markdown-Cheat-Sheet
-[1]: https://github.com/lifeparticle/The-Ultimate-Markdown-Cheat-Sheet
-[Markdown-Cheat-Sheet]: https://github.com/lifeparticle/The-Ultimate-Markdown-Cheat-Sheet
+[reference text]: https://github.com/Loris-Moreau/Git-Workflow/blob/83ecc202dff01f8f06efa48e3f0966e73a36586e/Workflows/ReadMeWorkFlow.md
+[1]: https://github.com/Loris-Moreau/Git-Workflow/blob/83ecc202dff01f8f06efa48e3f0966e73a36586e/Workflows/ReadMeWorkFlow.md
+[Markdown-Cheat-Sheet]: https://github.com/Loris-Moreau/Git-Workflow/blob/83ecc202dff01f8f06efa48e3f0966e73a36586e/Workflows/ReadMeWorkFlow.md
 
 ## Footnote
 
 Footnote.[^1]
 
-Some other important footnote.[^2]
+Some other footnote.[^2]
 
 [^1]: This is footnote number one.
 [^2]: Here is the second footnote.
@@ -517,13 +519,13 @@ Some other important footnote.[^2]
 ```markdown
 Footnote.[^1]
 
-Some other important footnote.[^2]
+Some other footnote.[^2]
 
 [^1]: This is footnote number one.
 [^2]: Here is the second footnote.
 ```
 
-<img width="264" alt="Screen Shot 2024-02-06 at 8 23 52 pm" src="https://github.com/lifeparticle/Markdown-Cheatsheet/assets/1612112/f55f13ff-8566-48f8-9353-edf3474523fd">
+<img width="264" alt="Screen Shot 2024-02-06 at 8 23 52 pm" src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md/assets/1612112/f55f13ff-8566-48f8-9353-edf3474523fd">
 
 ## Relative
 
@@ -543,7 +545,7 @@ Visit https://github.com/
 
 ## Section
 
-<img width="503" alt="Screen Shot 2024-02-04 at 12 49 07 pm" src="https://github.com/lifeparticle/Markdown-Cheatsheet/assets/1612112/fd69c9d9-82d7-44ce-a1ed-2e8d48881097">
+<img width="503" alt="Screen Shot 2024-02-04 at 12 49 07 pm" src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md/assets/1612112/fd69c9d9-82d7-44ce-a1ed-2e8d48881097">
 
 # Images
 
@@ -711,16 +713,16 @@ Visit https://github.com/
 <kbd> <br> cmd + shift + p <br> </kbd>
 
 ```markdown
-<kbd>[Markdown-Cheatsheet](https://github.com/lifeparticle/Markdown-Cheatsheet)</kbd>
+<kbd>[Markdown-Cheatsheet](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md)</kbd>
 ```
 
-<kbd>[Markdown-Cheatsheet](https://github.com/lifeparticle/Markdown-Cheatsheet)</kbd>
+<kbd>[Markdown-Cheatsheet](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md)</kbd>
 
 ```markdown
-[<kbd>Markdown-Cheatsheet</kbd>](https://github.com/lifeparticle/Markdown-Cheatsheet)
+[<kbd>Markdown-Cheatsheet</kbd>](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md)
 ```
 
-[<kbd>Markdown-Cheatsheet</kbd>](https://github.com/lifeparticle/Markdown-Cheatsheet)
+[<kbd>Markdown-Cheatsheet</kbd>](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md)
 
 # Collapsible items (28 July 2023)
 
@@ -850,7 +852,7 @@ $$
 
 ```
 
-![image](https://github.com/lifeparticle/Markdown-Cheatsheet/assets/1612112/dabf1df9-b51e-481c-a69a-89288082413b)
+![image](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md/assets/1612112/dabf1df9-b51e-481c-a69a-89288082413b)
 
 
 # Miscellaneous
