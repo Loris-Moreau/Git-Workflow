@@ -100,15 +100,17 @@ Types :
 - [Chore] : When a minor modification is done on something existing
 - [wip] : Only in the case that you need to do a temporary commit to change computers or save progress in the middle of something.
 
->[!note]
+
+> [!note]
 > There are many more Types you can use,
 >
 > Just make sure it's comprehended/Understood by the entire team
 >
->*(and talk about it with the programming lead, and the assets manager (if you have one))*.
+> *(and talk about it with the programming lead, and the assets manager (if you have one))*.
 
 If a modification changes the way something works drastically and may cascade to other files, add a **“!”** after the [type] and **“BREAKING CHANGE : ”** before the long description.
 Like so :
+
 
 ![Commit Ref 2](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Commit%20Ref%202.png)
 
