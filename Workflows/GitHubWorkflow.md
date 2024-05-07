@@ -42,7 +42,7 @@ If you have any doubts or problems, check with your lead programmer, **_avoid_**
 
 ![Stash Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Stash%20Ref.png)
 
-   - b. If somebody else has modified a file that you have locked, check with them and the leads *(yours & the programming lead)*.
+- - b. If somebody else has modified a file that you have locked, check with them and the leads *(yours & the programming lead)*.
 
 9. If everything seems clean after *sub-step a*. but it‘s still not working, check with the lead programmer. (ps: make sure you don't have a conflict with yourself, yes it can happen, *all hail technology, so smart*)
   
@@ -73,9 +73,9 @@ A commit should look like this :
 Types :
 - [Add] : added something, 
 - - (Feature) : added a feature.
-- - (Assets) : added assets, modified map.
+- - (Assets) : added assets.
 - [Feature] : modified a feature.
-- [Assets] : modified assets, modified map.
+- [Assets] : modified assets.
 - [Fix] : Fixed a bug.
 - [Engine] : modified settings or plugins.
 - [Refactor] : Moved or renamed files  (remember to always fix redirectors *(if there are any)*).
@@ -92,7 +92,7 @@ Like so :
 
 ![Commit Ref 2](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Commit%20Ref%202.png)
 
-Affected files should be presented as such :
+Modified files should be presented as such :
 - (added) file1, file2
 - (updated) file3, file4
 - (removed) file5, file6
