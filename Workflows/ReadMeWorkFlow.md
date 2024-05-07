@@ -50,8 +50,6 @@ This cheat sheet is here to provide you with a comprehensive understanding of th
   * [Emojis](#emojis)
   * [Line break](#line-break)
   * [Back to top](#back-to-top)
-- [Bitbucket](#bitbucket)
-- [Azure DevOps Project wiki](#azure-devops-project-wiki)
 - [Tools](#tools)
 
 # Headings
@@ -256,32 +254,32 @@ Refer to [this](https://github.com/github-linguist/linguist/blob/master/lib/ling
 
 ```markdown
 <p align="left">
-<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
 </p>
 ```
 
 <p align="left">
-<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
 </p>
 
 ```markdown
 <p align="center">
-<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
 </p>
 ```
 
 <p align="center">
-<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
 </p>
 
 ```markdown
 <p align="right">
-<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
 </p>
 ```
 
 <p align="right">
-<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
 </p>
 
 ```markdown
@@ -525,7 +523,7 @@ Some other footnote.[^2]
 [^2]: Here is the second footnote.
 ```
 
-<img width="264" alt="Screen Shot 2024-02-06 at 8 23 52 pm" src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md/assets/1612112/f55f13ff-8566-48f8-9353-edf3474523fd">
+<img width="264" alt="Screen Shot 2024-04-20 at 8 23 52 pm" src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/images/Capture d'écran 2024-04-20 230821">
 
 ## Relative
 
@@ -545,31 +543,31 @@ Visit https://github.com/
 
 ## Section
 
-<img width="503" alt="Screen Shot 2024-02-04 at 12 49 07 pm" src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md/assets/1612112/fd69c9d9-82d7-44ce-a1ed-2e8d48881097">
+<img width="503" alt="Screen Shot 2024-04-20 at 8 23 52 pm" src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/images/Screen Shot 2024-04-20 230821">
 
 # Images
 
 ```markdown
-![alt text](https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80)
+![alt text](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80)
 ```
 
-![alt text](https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80)
+![alt text](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80)
 
 ```markdown
 ![alt text][image]
 
-[image]: https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80
+[image]: https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80
 ```
 
 ![alt text][image]
 
-[image]: https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80
+[image]: https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80
 
 ```markdown
-<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
 ```
 
-<img src="https://images.unsplash.com/photo-1415604934674-561df9abf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2772&q=80" width="100" height="100" border="10"/>
+<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
 
 <img src="https://media.giphy.com/media/qLHzYjlA2FW8g/giphy.gif" />
 
@@ -852,7 +850,7 @@ $$
 
 ```
 
-![image](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md/assets/1612112/dabf1df9-b51e-481c-a69a-89288082413b)
+![image](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/images/Screen Shot 2024-04-20 230821)
 
 
 # Miscellaneous
@@ -980,14 +978,6 @@ Then use one of the following code at the place you want to return to top.
 
 [:arrow_up:](#top)
 ```
-
-# Bitbucket
-
-Bitbucket Supported Markdown for [READMEs](https://confluence.atlassian.com/bitbucketserver/markdown-syntax-guide-776639995.html). Also, create a [table of contents](https://support.atlassian.com/bitbucket-cloud/docs/add-a-table-of-contents-to-a-wiki/).
-
-# Azure DevOps Project wiki
-
-Azure DevOps Supported Markdown for [Project wiki](https://learn.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops).
 
 # Tools
 
