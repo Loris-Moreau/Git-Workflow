@@ -49,7 +49,7 @@ If you have any doubts or problems, check with your lead programmer, **_avoid_**
         check the commit history online *(not locally as you will only have what you’ve already pulled)*.
      
 <p align="center">
-   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Stash%20Ref.png">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Merge%20Conflict%20Ref%202.png">
 </p>
 
 - - b. If somebody else has modified a file that you have locked, check with them and the leads *(yours & the programming lead)*.
@@ -68,6 +68,10 @@ Success look like this :
 > [!caution]
 > After an aborted pull due to stash or merge conflict, you may have an incomplete pull, some files went through but not all, trying to pull again like that will only cause a repeat of the problem. 
 > You can discard or stash & discard those files before pulling again.
+
+<p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Stash%20Ref.png">
+</p>
 
 11. Commit your changes (see convention further down) and push. 
    - After waiting for the push to complete, go on Discord and free your files.
@@ -116,6 +120,13 @@ In case of “Assets” or “Refactor” and/or if there are more than 10 affec
 
 <br>
 <br>
+<br>
+<br>
+
+<p align="center">
+Honestly just be careful & use common sense.
+</p>
+
 <br>
 <br>
 
