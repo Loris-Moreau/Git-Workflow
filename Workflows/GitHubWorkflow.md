@@ -1,6 +1,6 @@
 # How to smoothly use GitHub and avoid problems
 
-Thanks to [Ewan](https://github.com/Ewan-DuplessisK "Link to his GitHub") for his help in redacting this.
+Thanks to [Aenorya](https://github.com/Aenorya "GitHub Link") and [Ewan](https://github.com/Ewan-DuplessisK "GitHub Link") for their help in redacting this.
 
 ## Remember to fetch and pull REGULARLY and to always have the editor closed before pulling or pushing *(wait a few seconds for it to properly close)*
 
