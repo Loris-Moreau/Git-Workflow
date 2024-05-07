@@ -24,7 +24,7 @@ If you have any doubts or problems, check with your lead programmer, **_avoid_**
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Pull%20Ref.png">
 </p>
 
-4. Go on the Discord server, find the git channel. Lock for the files you need, if they are free, lock them.
+4. Go on the Discord server, find the git channel. Look for the files you need, if they are free, lock them.
    - example : File_1 : Taken 🛑
    - example : File_1 : Free 🟢
 
@@ -54,7 +54,7 @@ If you have any doubts or problems, check with your lead programmer, **_avoid_**
 
 - - b. If somebody else has modified a file that you have locked, check with them and the leads *(yours & the programming lead)*.
 
-9. If everything seems clean after *sub-step a*. but it‘s still not working, check with the lead programmer. (ps: make sure you don't have a conflict with yourself, yes it can happen, *all hail technology, so smart*)
+9. If everything seems clean after step *8.a.* but it‘s still not working, check with the lead programmer. (ps: make sure you don't have a conflict with yourself, yes it can happen, *all hail technology, so smart*)
   
 10. In case of merge conflict,
     ${\color{Red}{DO \space NOT \space RESOLVE \space \space THEM \space BY \space YOURSELF, \space CHECK \space WITH \space THE \space LEAD \space PROGRAMMER \space IMMEDIATELY}}$
