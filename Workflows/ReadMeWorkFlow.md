@@ -827,10 +827,10 @@ $$
 # Mention people and teams
 
 ```markdown
-@lifeparticle
+@Loris-Moreau
 ```
 
-@lifeparticle
+@Loris-Moreau
 
 # Reference issues and pull requests
 
