@@ -523,7 +523,7 @@ Some other footnote.[^2]
 [^2]: Here is the second footnote.
 ```
 
-<img width="264" alt="Screen Shot 2024-04-20 at 8 23 52 pm" src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Screen Shot 2024-04-20 230821">
+<img width="264" alt="Screen Shot 2024-04-20 at 8 23 52 pm" src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Screen Shot 2024-04-20 230821.png">
 
 ## Relative
 
@@ -543,7 +543,7 @@ Visit https://github.com/
 
 ## Section
 
-<img width="503" alt="Screen Shot 2024-04-20 at 8 23 52 pm" src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Screen Shot 2024-04-20 230821">
+<img width="503" alt="Screen Shot 2024-04-20 at 8 23 52 pm" src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Screen Shot 2024-04-20 230821.png">
 
 # Images
 
@@ -850,7 +850,7 @@ $$
 
 ```
 
-![image](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Screen Shot 2024-04-20 230821)
+![image](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Screen Shot 2024-04-20 230821.png)
 
 
 # Miscellaneous
