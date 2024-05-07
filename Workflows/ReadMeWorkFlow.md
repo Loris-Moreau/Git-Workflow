@@ -104,103 +104,103 @@ Heading 2
 
 ```markdown
 Bold
-**Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.**
-__Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.__
-<strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</strong>
+**Lorem ipsum dolor sit amet**
+__Lorem ipsum dolor sit amet__
+<strong>Lorem ipsum dolor sit amet</strong>
 Italic
-*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.*
-_Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. _
-<em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
+*Lorem ipsum dolor sit amet*
+_Lorem ipsum dolor sit amet _
+<em>Lorem ipsum dolor sit amet</em>
 Bold and Italic
-**_Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua._**
-<strong><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em></strong>
+**_Lorem ipsum dolor sit amet_**
+<strong><em>Lorem ipsum dolor sit amet</em></strong>
 ```
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet
 
 Bold
 
-**Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.**
+**Lorem ipsum dolor sit amet**
 
-__Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.__
+__Lorem ipsum dolor sit amet__
 
-<strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</strong>
+<strong>Lorem ipsum dolor sit amet</strong>
 
 
 Italic
 
-*Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.*
+*Lorem ipsum dolor sit amet*
 
-_Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua._
+_Lorem ipsum dolor sit amet_
 
-<em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em>
+<em>Lorem ipsum dolor sit amet</em>
 
 Bold and Italic
 
-**_Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua._**
+**_Lorem ipsum dolor sit amet_**
 
-<strong><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em></strong>
+<strong><em>Lorem ipsum dolor sit amet</em></strong>
 
 Blockquotes
 
 ```markdown
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> Lorem ipsum dolor sit amet
+> Lorem ipsum dolor sit amet
 >
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> Lorem ipsum dolor sit amet
 >
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
->> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
->>> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> Lorem ipsum dolor sit amet
+> Lorem ipsum dolor sit amet
+>> Lorem ipsum dolor sit amet
+>>> Lorem ipsum dolor sit amet
 > **The quick brown fox** *jumps over the lazy dog.*
 ```
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> Lorem ipsum dolor sit amet
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> Lorem ipsum dolor sit amet
 >
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> Lorem ipsum dolor sit amet
 >
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> Lorem ipsum dolor sit amet
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
->> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
->>> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> Lorem ipsum dolor sit amet
+>> Lorem ipsum dolor sit amet
+>>> Lorem ipsum dolor sit amet
 
 > **Lorem ipsum** *dolor sit amet*
 
 ```markdown
 Monospaced
-<samp>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</samp>
+<samp>Lorem ipsum dolor sit amet</samp>
 
 Underlined
-<ins>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ins>
+<ins>Lorem ipsum dolor sit amet</ins>
 
 Strike-through
-~~Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.~~
+~~Lorem ipsum dolor sit amet~~
 ```
 
 Monospaced
 
-<samp>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</samp>
+<samp>Lorem ipsum dolor sit amet</samp>
 
 Underlined
 
-<ins>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ins>
+<ins>Lorem ipsum dolor sit amet</ins>
 
 Strike-through
 
-~~Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.~~
+~~Lorem ipsum dolor sit amet~~
 
 ```markdown
 Boxed
-<table><tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td></tr></table>
+<table><tr><td>Lorem ipsum dolor sit amet</td></tr></table>
 ```
 
 Boxed
 
-<table><tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</td></tr></table>
+<table><tr><td>Lorem ipsum dolor sit amet</td></tr></table>
 
 ```markdown
 2 <sup>53-1</sup> and -2 <sup>53-1</sup>
@@ -209,13 +209,13 @@ Boxed
 2 <sup>53-1</sup> and -2 <sup>53-1</sup>
 
 ```markdown
-Subscript <sub>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</sub>
-Superscript <sup>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</sup>
+Subscript <sub>Lorem ipsum dolor sit amet</sub>
+Superscript <sup>Lorem ipsum dolor sit amet</sup>
 ```
 
-Subscript <sub>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</sub>
+Subscript <sub>Lorem ipsum dolor sit amet</sub>
 
-Superscript <sup>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</sup>
+Superscript <sup>Lorem ipsum dolor sit amet</sup>
 
 # Syntax Highlighting
 
@@ -295,13 +295,13 @@ Refer to [this](https://github.com/github-linguist/linguist/blob/master/lib/ling
 <table>
 <tr>
 <td width="33%"">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet
 </td>
 <td width="33%">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet
 </td>
 <td width="33%">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet
 </td>
 </tr>
 </table>
@@ -310,13 +310,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <table>
 <tr>
 <td width="33%"">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet
 </td>
 <td width="33%">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet
 </td>
 <td width="33%">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Lorem ipsum dolor sit amet
 </td>
 </tr>
 </table>
@@ -946,18 +946,18 @@ After escaping
 You can use `<br>` to insert a single line break. Make sure to use an em space ` `. For example:
 
 ```markdown
-<table><tr><td> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> </td></tr></table>
+<table><tr><td> <br> Lorem ipsum dolor sit amet <br> </td></tr></table>
 ```
 
-<table><tr><td> <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> </td></tr></table>
+<table><tr><td> <br> Lorem ipsum dolor sit amet <br> </td></tr></table>
 
 Or
 
 ```markdown
-<table><tr><td> <br><br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br><br> </td></tr></table>
+<table><tr><td> <br><br><br> Lorem ipsum dolor sit amet <br><br><br> </td></tr></table>
 ```
 
-<table><tr><td> <br><br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br><br> </td></tr></table>
+<table><tr><td> <br><br><br> Lorem ipsum dolor sit amet <br><br><br> </td></tr></table>
 
 ## Back to top
 
