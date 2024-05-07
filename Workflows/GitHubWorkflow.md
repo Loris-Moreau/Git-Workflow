@@ -90,13 +90,15 @@ A commit should look like this :
 
 Types :
 - [Add] : added something, 
-- - (Feature) : added a feature.
+- - (Feat) : added a feature.
 - - (Assets) : added assets.
-- [Feature] : modified a feature.
+- [Feat] : modified a feature.
 - [Assets] : modified assets.
 - [Fix] : Fixed a bug.
 - [Engine] : modified settings or plugins.
-- [Refactor] : Moved or renamed files  (remember to always fix redirectors *(if there are any)*).
+- [Refactor] : Adding comments, Moving or renaming files (remember to always fix redirectors *(if there are any)*).
+- [Chore] : When a minor modification is done on something existing
+- [wip] : Only in the case that you need to do a temporary commit to change computers or save progress in the middle of something.
 
 >[!note]
 > There are many more Types you can use,
