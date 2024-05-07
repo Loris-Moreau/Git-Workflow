@@ -1,6 +1,6 @@
 # How to smoothly use GitHub and avoid problems
 
-Thanks to [Ewan](https://github.com/Ewan-DuplessisK "Link to his Github") for doing a lot of this.
+Thanks to [Ewan](https://github.com/Ewan-DuplessisK "Link to his GitHub") for his help in redacting this.
 
 ## Remember to fetch and pull REGULARLY and to always have the editor closed before pulling or pushing *(wait a few seconds for it to properly close)*
 
@@ -12,18 +12,24 @@ If you have any doubts or problems, check with your lead programmer, **_avoid_**
 1. Go to GitHub Desktop and fetch.
    - I do recommend closing your editor before fetching to avoid problems.
 
-   ![Fetch Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Fetch%20Ref.png)
-   ![Fetch Request Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fetch%20Request%20Ref.png)
-3. If there are files to pull, close your editor and then pull
+<p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Fetch%20Ref.png">
+   
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fetch%20Request%20Ref.png">
+</p>
 
-   ![Pull Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Pull%20Ref.png)
+3. If there are files to pull, make sure your editor is closed and then pull
+
+<p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Pull%20Ref.png">
+</p>
 
 4. Go on the Discord server, find the git channel. Lock for the files you need, if they are free, lock them.
    - example : File_1 : Taken 🛑
    - example : File_1 : Free 🟢
 
 5. If they have been locked for a long time, ping the last person who used them and ask if they’re still working on them. 
-   If you can’t find them on the channel but think they may be used, do not hesitate to ping.
+   If you can’t find them on the channel but think they may be used, do not hesitate to ping, or to ask the programming lead and/or the asset manager.
 
 6. If the files you need have just been freed, do not forget to pull them.
 
@@ -31,7 +37,9 @@ If you have any doubts or problems, check with your lead programmer, **_avoid_**
 
 8. On Github Desktop, discard every file you haven’t locked.
 
-![Discard Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Discard%20Ref.png)
+<p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Discard%20Ref.png">
+</p>
 
 > [!warning]
 > - If you’ve opened other files to check things, your editor might consider them modified even if it’s not the case.
@@ -39,21 +47,23 @@ If you have any doubts or problems, check with your lead programmer, **_avoid_**
 8. Fetch and pull *(don’t forget to close your editor)*
    - a. If you are asked to stash your changes, it means that you are trying to pull files that you have also modified,
         check the commit history online *(not locally as you will only have what you’ve already pulled)*.
-
-![Stash Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Stash%20Ref.png)
+     
+<p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Stash%20Ref.png">
+</p>
 
 - - b. If somebody else has modified a file that you have locked, check with them and the leads *(yours & the programming lead)*.
 
 9. If everything seems clean after *sub-step a*. but it‘s still not working, check with the lead programmer. (ps: make sure you don't have a conflict with yourself, yes it can happen, *all hail technology, so smart*)
   
 10. In case of merge conflict,
-    ${\color{Red}{DO \space NOT \space RESOLVE \space THEM \space BY \space YOURSELF, \space CHECK \space WITH \space THE \space LEAD \space PROGRAMMER \space IMMEDIATELY}}$
+    ${\color{Red}{DO \space NOT \space RESOLVE \space \space THEM \space BY \space YOURSELF, \space CHECK \space WITH \space THE \space LEAD \space PROGRAMMER \space IMMEDIATELY}}$
 
-![Merge Conflict Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Merge%20Conflict%20Ref.png)
+![Merge Conflict](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Merge%20Conflict%20Ref.png)
 
 Success look like this : 
 
-![Merge Success Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Merge%20Success%20Ref.png)
+![Merge Success](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Merge%20Success%20Ref.png)
 
 > [!caution]
 > After an aborted pull due to stash or merge conflict, you may have an incomplete pull, some files went through but not all, trying to pull again like that will only cause a repeat of the problem. 
@@ -62,7 +72,11 @@ Success look like this :
 11. Commit your changes (see convention further down) and push. 
    - After waiting for the push to complete, go on Discord and free your files.
 
-![Push Ref](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Push%20Ref.png)
+<p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Push%20Ref.png">
+</p>
+
+<br>
 
 ### Commits naming convention :
 
