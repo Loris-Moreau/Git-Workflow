@@ -35,11 +35,11 @@ This cheat sheet is here to provide you with a comprehensive understanding of th
   * [Unordered](#unordered)
   * [Task](#task)
 - [Buttons](#buttons)
-- [Collapsible items (28 July 2023)](#collapsible-items-28-july-2023)
+- [Collapsible items (2023)](#collapsible-items-2023)
 - [Horizontal Rule](#horizontal-rule)
-- [Diagrams (19 July 2022)](#diagrams-19-july-2022)
-- [Mathematical expressions (19 July 2022)](#mathematical-expressions-19-july-2022)
-- [Alerts (8 January 2024)](#alerts-8-january-2024)
+- [Diagrams (2022)](#diagrams-2022)
+- [Mathematical expressions (2022)](#mathematical-expressions-2022)
+- [Alerts](#alerts)
 - [Mention people and teams](#mention-people-and-teams)
 - [Reference issues and pull requests](#reference-issues-and-pull-requests)
 - [Color models](#color-models)
@@ -254,40 +254,40 @@ Refer to [this](https://github.com/github-linguist/linguist/blob/master/lib/ling
 
 ```markdown
 <p align="left">
-<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
+<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg">
 </p>
 ```
 
 <p align="left">
-<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
+<img width=256 height=256 src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg">
 </p>
 
 ```markdown
 <p align="center">
-<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
+<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg">
 </p>
 ```
 
 <p align="center">
-<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
+<img width=256 height=256 src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg">
 </p>
 
 ```markdown
 <p align="right">
-<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
+<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg">
 </p>
 ```
 
 <p align="right">
-<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
+<img width=256 height=256 src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg">
 </p>
 
 ```markdown
-<h3 align="center"> My latest Medium posts </h3>
+<h3 align="center"> My latest mistake </h3>
 ```
 
 <!-- omit in toc -->
-<h3 align="center"> My latest Medium posts </h3>
+<h3 align="center"> My latest mistake </h3>
 
 # Tables
 
@@ -523,7 +523,7 @@ Some other footnote.[^2]
 [^2]: Here is the second footnote.
 ```
 
-<img width="264" alt="Screen Shot 2024-04-20 at 8 23 52 pm" src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/images/Capture d'écran 2024-04-20 230821">
+<img width="264" alt="Screen Shot 2024-04-20 at 8 23 52 pm" src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/images/Screen Shot 2024-04-20 230821">
 
 ## Relative
 
@@ -548,38 +548,38 @@ Visit https://github.com/
 # Images
 
 ```markdown
-![alt text](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80)
+![alt text](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg)
 ```
 
-![alt text](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80)
+![alt text](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg)
 
 ```markdown
 ![alt text][image]
 
-[image]: https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80
+[image]: https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg
 ```
 
 ![alt text][image]
 
-[image]: https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&q=80
+[image]: https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg
 
 ```markdown
-<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
+<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg">
 ```
 
-<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg/>
+<img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fox.jpg">
 
 <img src="https://media.giphy.com/media/qLHzYjlA2FW8g/giphy.gif" />
 
-<img src="https://img.shields.io/badge/theultimatemarkdowncheatsheet-brightgreen.svg" />
+<img src="https://img.shields.io/badge/readmecheatsheet-brightgreen.svg" />
 
 # Badges
 
 ```markdown
-![GitHub forks](https://img.shields.io/github/forks/lifeparticle/Markdown-Cheatsheet?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Loris-Moreau/Git-Workflow?style=for-the-badge)
 ```
 
-![GitHub forks](https://img.shields.io/github/forks/lifeparticle/Markdown-Cheatsheet?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Loris-Moreau/Git-Workflow?style=for-the-badge)
 
 
 # Lists
@@ -722,7 +722,7 @@ Visit https://github.com/
 
 [<kbd>Markdown-Cheatsheet</kbd>](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md)
 
-# Collapsible items (28 July 2023)
+# Collapsible items (2023)
 
 ```markdown
 <details>
@@ -738,9 +738,9 @@ Visit https://github.com/
 <details>
   <summary>Markdown</summary>
 
--  <kbd>[Markdown Editor](https://binarytree.dev/me)</kbd>
--  <kbd>[Table Of Content](https://binarytree.dev/toc)</kbd>
--  <kbd>[Markdown Table Generator](https://binarytree.dev/md_table_generator)</kbd>
+-  <kbd>[Markdown-Cheatsheet](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md)</kbd>
+-  <kbd>Hello</kbd>
+-  <kbd>[My GitHub](https://github.com/Loris-Moreau)</kbd>
 
 </details>
 
@@ -759,22 +759,22 @@ ___
 ___
 
 
-# Diagrams (19 July 2022)
+# Diagrams (2022)
 
 ```markdown
 pie
-"Movies" : 80
-"TV shows" : 20
+"Dogs" : 80
+"Cats" : 20
 ```
 
 
 ```mermaid
 pie
-"Movies" : 80
-"TV shows" : 20
+"Dogs" : 80
+"Cats" : 20
 ```
 
-# Mathematical expressions (19 July 2022)
+# Mathematical expressions (2022)
 
 ```markdown
 This is an inline math expression $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
@@ -790,7 +790,7 @@ $$
 x = {-b \pm \sqrt{b^2-4ac} \over 2a}
 $$
 
-# Alerts (8 January 2024)
+# Alerts
 
 ```markdown
 > [!NOTE]
