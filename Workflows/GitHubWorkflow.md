@@ -2,19 +2,18 @@
 
 Thanks to [Aenorya](https://github.com/Aenorya "GitHub Link") and [Ewan](https://github.com/Ewan-DuplessisK "GitHub Link") for their help in redacting this.
 
-## Remember to fetch and pull REGULARLY and to always have the editor closed before pulling or pushing *(wait a few seconds for it to properly close)*
+## Remember to fetch and pull REGULARLY and to always have your editor closed before pulling or pushing *(wait a few seconds for it to properly close)*
 
-If you have any doubts or problems, check with your lead programmer, **_avoid_** resolving git issues yourself.
-   > ps: That is why we have Programming leads & Asset managers.
+If you have any doubts or problems, check with your lead programmer, ***avoid*** resolving git issues yourself.
+   > ps: This is why we have Programming leads & Asset managers.
 
 #### If you need to work on a file, here is the procedure :
 
 1. Go to GitHub Desktop and fetch.
-   - I do recommend closing your editor before fetching to avoid problems.
+   - *I do recommend closing your editor before fetching to avoid problems.*
 
 <p align="center">
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Fetch%20Ref.png">
-   
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Fetch%20Request%20Ref.png">
 </p>
 
@@ -27,25 +26,28 @@ If you have any doubts or problems, check with your lead programmer, **_avoid_**
 3. Go on the Google Sheets. Look for the files you need, if they are free, lock them.
    - example : File_1 : Taken 🛑
    - example : File_1 : Free 🟢
-   - if you are using Discord it is recommended to set up a git automation to have a channel that receives an automatic message each time a push is made on the branch or branches you choose, it is very useful for keeping everyone up to date
 
-4. If they have been locked for a long time, ask the last person who used them and ask if they’re still working on them. 
-   If you can’t find them on the channel but think they may be used, do not hesitate to ask them or the programming lead and/or the asset manager.
+   - if you are using Discord it is recommended to set up a [git automation](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Discord%20Webnooks.md) to have a channel that receives an automatic message each time a push is made on the branch or branches you choose, it is very useful for keeping everyone up to date
 
-5. If the files you need have just been freed, do not forget to pull them.
+4. If they have been locked for a long time, ask the last person who used them and ask if they’re still working on them.
+   - If you can’t find them on the channel but think they may be used, do not hesitate to ask them or the programming lead and/or the asset manager.
 
-6. Do your work. And save everything
+6. If the files you need have just been freed, do not forget to pull them.
 
-7. If you create a file remember to add it to the sheet.
+7. Do your work. And save everything
 
-8. On Github Desktop, discard every file you haven’t locked.
+8. If you create files remember to **add them to the sheet**.
+
+9. On Github Desktop, discard every file you haven’t locked.
 
 <p align="center">
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Discard%20Ref.png">
 </p>
 
+
 > [!warning]
 > - If you’ve opened other files to check things, your editor might consider them modified even if it’s not the case.
+
 
 9. Fetch and pull *(don’t forget to close your editor)*
    - a. If you are asked to stash your changes, it means that you are trying to pull files that you have also modified,
@@ -55,12 +57,13 @@ If you have any doubts or problems, check with your lead programmer, **_avoid_**
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Merge%20Conflict%20Ref%202.png">
 </p>
 
-- - b. If somebody else has modified a file that you have locked, check with them and the leads *(yours & the programming lead)*.
+- - b. If somebody else has modified a file that you have locked, check with them and the leads *(yours & the programming lead and/or the asset manager.)*.
 
-10. If everything seems clean after step *9.a.* but it‘s still not working, check with the lead programmer. (ps: make sure you don't have a conflict with yourself, yes it can happen, *all hail technology, so smart*)
+10. If everything seems clean after step *9.a.* but it‘s still not working, check with the lead programmer and/or the asset manager.
+    - (ps: make sure you don't have a conflict with yourself, yes it can happen, *all hail technology, so smart*)
   
 11. In case of merge conflict,
-    ${\color{Red}{DO \space NOT \space RESOLVE \space \space THEM \space BY \space YOURSELF, \space CHECK \space WITH \space THE \space LEAD \space PROGRAMMER \space IMMEDIATELY}}$
+    ${\color{Red}{DO \space NOT \space RESOLVE \space \space THEM \space BY \space YOURSELF, \space CHECK \space WITH \space THE \space LEAD \space PROGRAMMER \space AND/OR \space THE \space ASSET \space MANAGER \space IMMEDIATELY}}$
 
 ![Merge Conflict](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Merge%20Conflict%20Ref.png)
 
@@ -76,8 +79,8 @@ Success look like this :
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Stash%20Ref.png">
 </p>
 
-12. Commit your changes (see convention further down) and push. 
-   - After waiting for the push to complete, go on Google Sheets and *free your files*.
+12. Commit your changes *(see convention further down)* and push. 
+   - After waiting for the push to complete, go on the Sheet and *free your files*.
 
 <p align="center">
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Push%20Ref.png">
@@ -92,9 +95,10 @@ A commit should look like this :
 ![Commit Ref 1](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Commit%20Ref%201.png)
 
 Types :
-- [Add] : added something, 
+- [Add] : added something,
 - - (Feat) : added a feature.
 - - (Assets) : added assets.
+
 - [Feat] : modified a feature.
 - [Assets] : modified assets.
 - [Fix] : Fixed a bug.
@@ -111,11 +115,11 @@ Types :
 >
 > *(and talk about it with the programming lead, and the assets manager (if you have one))*.
 
-If a modification changes the way something works drastically and may cascade to other files, add a **“!”** after the [type] and **“BREAKING CHANGE : ”** before the long description.
+If a modification changes the way something works drastically and may cascade to other files, add a **“ ! ”** after the [type] and **“ BREAKING CHANGE : ”** before the long description.
 Like so :
 
-
 ![Commit Ref 2](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Commit%20Ref%202.png)
+
 
 Modified files should be presented as such :
 - (added) file1, file2
@@ -123,7 +127,8 @@ Modified files should be presented as such :
 - (removed) file5, file6
 
 In case of “Assets” or “Refactor” and/or if there are more than 10 affected files, feel free to skip that step.
-*(ps: if there are more than 7 modified files you should commit more often)*
+
+*(ps : if there are more than 7 modified files you should commit more often)*
 
 <br>
 <br>
@@ -134,7 +139,6 @@ In case of “Assets” or “Refactor” and/or if there are more than 10 affec
 Honestly just be careful & use common sense.
 </p>
 
-<br>
 <br>
 
 <p align="center">
