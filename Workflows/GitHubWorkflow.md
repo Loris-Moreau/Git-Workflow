@@ -24,12 +24,13 @@ If you have any doubts or problems, check with your lead programmer, **_avoid_**
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Pull%20Ref.png">
 </p>
 
-4. Go on the Discord server, find the git channel. Look for the files you need, if they are free, lock them.
+4. Go on the Google Sheets. Look for the files you need, if they are free, lock them.
    - example : File_1 : Taken 🛑
    - example : File_1 : Free 🟢
+   - if you are using Discord it is recommended to set up a git automation to have a channel that receives an automatic message each time a push is made on the branch or branches you choose, it is very useful for keeping everyone up to date
 
-5. If they have been locked for a long time, ping the last person who used them and ask if they’re still working on them. 
-   If you can’t find them on the channel but think they may be used, do not hesitate to ping, or to ask the programming lead and/or the asset manager.
+5. If they have been locked for a long time, ask the last person who used them and ask if they’re still working on them. 
+   If you can’t find them on the channel but think they may be used, do not hesitate to ask them or the programming lead and/or the asset manager.
 
 6. If the files you need have just been freed, do not forget to pull them.
 
@@ -74,7 +75,7 @@ Success look like this :
 </p>
 
 11. Commit your changes (see convention further down) and push. 
-   - After waiting for the push to complete, go on Discord and free your files.
+   - After waiting for the push to complete, go on Google Sheets and *free your files*.
 
 <p align="center">
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Push%20Ref.png">
