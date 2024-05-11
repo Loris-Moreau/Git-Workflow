@@ -7,6 +7,7 @@
 Workflows : 
 - [GitHub](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/GitHubWorkflow.md)
 - [Read-Me's](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/ReadMeWorkFlow.md)
-
+- [Discord Updates](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Discord%20Webnooks.md)
+  
 - [Environments](https://github.com/Loris-Moreau/Git-Workflow/tree/main/Workflows/Environement) : 
 - - [YALM](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Environement)
