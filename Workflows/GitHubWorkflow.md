@@ -2,6 +2,8 @@
 
 Thanks to [Aenorya](https://github.com/Aenorya "GitHub Link") and [Ewan](https://github.com/Ewan-DuplessisK "GitHub Link") for their help in redacting this.
 
+*& don't forget to comment your work **(All of it)***
+
 ## Remember to fetch and pull REGULARLY and to always have your editor closed before pulling or pushing *(wait a few seconds for it to properly close)*
 
 If you have any doubts or problems, check with your lead programmer, ***avoid*** resolving git issues yourself.
