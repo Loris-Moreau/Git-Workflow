@@ -96,7 +96,7 @@ A commit should look like this :
 
 ![Commit Ref 1](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Commit%20Ref%201.png)
 
-Types :
+#### Types :
 - [Add] : added something,
 - - (Feat) : added a feature.
 - - (Assets) : added assets.
