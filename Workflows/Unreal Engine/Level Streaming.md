@@ -25,12 +25,12 @@ Also check out [World Partition](https://github.com/Loris-Moreau/Git-Workflow/bl
   <p align="center">
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Level%20Dropdown.png">
   </p>
-  
+
 - - like so :
   
   <p align="center">
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Level%20Added.png">
- </p>
+  </p>
 
 4. you can switch between levels with this at the bottom right of your editor *(be careful to be on the right level when you make changes)*
 
