@@ -113,3 +113,6 @@ If the viewpoint is inside at least one Level Streaming Volume, a request is iss
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Volume%20Details.png">
  </p>
 
+5. Looks like this
+
+![LS Volume Showcase](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Volume%20Showcase.gif)
