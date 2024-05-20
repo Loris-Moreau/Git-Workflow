@@ -4,7 +4,7 @@ Also check out [World Partition](https://github.com/Loris-Moreau/Git-Workflow/bl
 
 ## Level Streaming
 
-- The [Official Doc](https://dev.epicgames.com/documentation/en-us/unreal-engine/level-streaming-in-unreal-engine)
+- The [Official Doc](https://dev.epicgames.com/documentation/en-us/unreal-engine/level-streaming-in-unreal-engine) for UE5
 
 - Level Streaming makes it possible to load and unload map files into memory as well as toggle their visibility during play.
   - This makes it possible to have worlds broken up into smaller chunks so that only the relevant parts of the world are taking up resources and being rendered at any point. 
@@ -24,6 +24,11 @@ Also check out [World Partition](https://github.com/Loris-Moreau/Git-Workflow/bl
 3. Then either *Add Existing* or *Create a New* level to stream in the Levels window
   <p align="center">
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Level%20Dropdown.png">
+  </p>
+  
+- - like so :
+  
+  <p align="center">
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Level%20Added.png">
  </p>
 
