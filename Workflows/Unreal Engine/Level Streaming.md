@@ -59,3 +59,49 @@ Also check out [World Partition](https://github.com/Loris-Moreau/Git-Workflow/bl
 #### It should look a little something like this
 
 ![LS Showcase](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Showcase.gif)
+
+## Level Streaming Volumes
+
+Level Streaming Volumes are used to aid in the Level Streaming process. 
+They provide a simple way to encapsulate a level, as well as control when it streams in and out of memory, based on when a Player enters or exits the Volume.
+
+**Volume-based level streaming works as follows :** each streaming Level can have associated with it a set of Level Streaming Volumes. 
+Each frame, the engine iterates over each Level and checks to see if the player's viewpoint is inside any of the Level Streaming Volumes associated with that Level. 
+If the viewpoint is inside at least one Level Streaming Volume, a request is issued to begin loading that Level. If the viewpoint is outside all Level Streaming Volumes, the Level is marked for unloading.
+
+#### Important Details
+
+- All Level Streaming Volumes must exist in the persistent Level. Level Streaming Volumes that live in other Levels cannot be used for level streaming, and will generate **warnings** when the map is checked for errors.
+
+- If a Level has any streaming volumes associated with it, other methods of streaming the Level will not behave correctly.
+
+- A single Level Streaming Volume can affect multiple Levels. Similarly, a single Level can be affected by multiple Level Streaming Volumes.
+
+- Volume-based streaming works for split screen. The viewpoints of all local players are considered before any loading/unloading requests are issued.
+
+### How to Setup
+
+1. first you will need to add a Levelstreaming volume in your scene
+
+ <p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Volume.png">
+ </p>
+
+2. Then set it to the walkable are aof your game
+
+  <p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Volume%20Setup.png">
+ </p>
+
+ 3. Go to the levels window that we saw above *(point 2 of "How to make it happen")*, and go to the details panel
+
+  <p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Volume%20Setup%202.png">
+ </p>
+
+4. In the details panel set the volume for the sub-scenes you wish to load with that volume
+
+  <p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Volume%20Details">
+ </p>
+
