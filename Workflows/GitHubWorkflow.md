@@ -26,7 +26,7 @@ If you have any doubts or problems, check with your lead programmer, ***avoid***
 </p>
 
 3. Go on the Google Sheets. Look for the files you need, if they are free, lock them.
-   - example : File_1 : Taken 🛑
+   - example : File_1 : Taken 🛑 by John Doe
    - example : File_1 : Free 🟢
 
    - if you are using Discord it is recommended to set up a [git automation](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Discord%20Webnooks.md) to have a channel that receives an automatic message each time a push is made on the branch or branches you choose, it is very useful for keeping everyone up to date
@@ -51,6 +51,8 @@ If you have any doubts or problems, check with your lead programmer, ***avoid***
 > - If you’ve opened other files to check things, your editor might consider them modified even if it’s not the case.
 
 
+### Merge Conflicts
+
 9. Fetch and pull *(don’t forget to close your editor)*
    - a. If you are asked to stash your changes, it means that you are trying to pull files that you have also modified,
         check the commit history online *(not locally as you will only have what you’ve already pulled)*.
@@ -63,9 +65,10 @@ If you have any doubts or problems, check with your lead programmer, ***avoid***
 
 10. If everything seems clean after step *9.a.* but it‘s still not working, check with the lead programmer and/or the asset manager.
     - (ps: make sure you don't have a conflict with yourself, yes it can happen, *all hail technology, so smart*)
-  
+
 11. In case of merge conflict,
     ${\color{Red}{DO \space NOT \space RESOLVE \space \space THEM \space BY \space YOURSELF, \space CHECK \space WITH \space THE \space LEAD \space PROGRAMMER \space AND/OR \space THE \space ASSET \space MANAGER \space IMMEDIATELY}}$
+
 
 ![Merge Conflict](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Merge%20Conflict%20Ref.png)
 
@@ -81,7 +84,19 @@ Success look like this :
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Stash%20Ref.png">
 </p>
 
-12. Commit your changes *(see convention further down)* and push. 
+### Disconecting Errors 
+
+12. In case of Disconect
+
+<p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Disconect%20Ref.jpg">
+</p>
+
+- - a. Check your internet connection
+  - b. Close & reopen Github Desktop
+  - c. hi
+
+13. Commit your changes *(see convention further down)* and push. 
    - After waiting for the push to complete, go on the Sheet and *free your files*.
 
 <p align="center">
