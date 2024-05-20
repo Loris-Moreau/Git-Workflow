@@ -17,3 +17,9 @@ The [docs](https://docs.unrealengine.com/5.0/en-US/world-partition-in-unreal-eng
 
 ## Level Streaming
 
+- The [Official Doc](https://dev.epicgames.com/documentation/en-us/unreal-engine/level-streaming-in-unreal-engine)
+- Level Streaming makes it possible to load and unload map files into memory as well as toggle their visibility during play. 
+  - This makes it possible to have worlds broken up into smaller chunks so that only the relevant parts of the world are taking up resources and being rendered at any point. 
+  - If done properly, this allows for the creation of *very large*, seamless games that can make the player feel as if they are playing within a world that dwarfs them in size.
+
+
