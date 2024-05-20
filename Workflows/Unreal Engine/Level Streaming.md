@@ -65,9 +65,15 @@ Also check out [World Partition](https://github.com/Loris-Moreau/Git-Workflow/bl
 Level Streaming Volumes are used to aid in the Level Streaming process. 
 They provide a simple way to encapsulate a level, as well as control when it streams in and out of memory, based on when a Player enters or exits the Volume.
 
+<br>
+
 **Volume-based level streaming works as follows :** each streaming Level can have associated with it a set of Level Streaming Volumes. 
+
 Each frame, the engine iterates over each Level and checks to see if the player's viewpoint is inside any of the Level Streaming Volumes associated with that Level. 
+
 If the viewpoint is inside at least one Level Streaming Volume, a request is issued to begin loading that Level. If the viewpoint is outside all Level Streaming Volumes, the Level is marked for unloading.
+
+<br>
 
 #### Important Details
 
@@ -79,6 +85,8 @@ If the viewpoint is inside at least one Level Streaming Volume, a request is iss
 
 - Volume-based streaming works for split screen. The viewpoints of all local players are considered before any loading/unloading requests are issued.
 
+<br>
+
 ### How to Setup
 
 1. first you will need to add a Levelstreaming volume in your scene
@@ -87,7 +95,7 @@ If the viewpoint is inside at least one Level Streaming Volume, a request is iss
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Volume.png">
  </p>
 
-2. Then set it to the walkable are aof your game
+2. Then set it to the walkable area of your game, and set the **Streaming Usage** to *"SVB Visibility Blocking on Load"*
 
   <p align="center">
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Volume%20Setup.png">
@@ -102,6 +110,6 @@ If the viewpoint is inside at least one Level Streaming Volume, a request is iss
 4. In the details panel set the volume for the sub-scenes you wish to load with that volume
 
   <p align="center">
-   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Volume%20Details">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Volume%20Details.png">
  </p>
 
