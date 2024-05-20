@@ -56,3 +56,6 @@ Also check out [World Partition](https://github.com/Loris-Moreau/Git-Workflow/bl
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Level.png">
  </p>
 
+#### It should look a little something like this
+
+![LS Showcase](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Showcase.gif)
