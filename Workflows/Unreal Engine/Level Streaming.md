@@ -40,7 +40,6 @@ The [docs](https://docs.unrealengine.com/5.0/en-US/world-partition-in-unreal-eng
 4. you can switch between levels with this at the bottom right of your editor *(be careful to be on the right level when you make changes~~~~)*
 
  <p align="center">
-   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Levels%20Switch.png">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Level%20Switch.png">
  </p>
 
-5. 
