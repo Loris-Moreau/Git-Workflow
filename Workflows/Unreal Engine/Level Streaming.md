@@ -22,4 +22,25 @@ The [docs](https://docs.unrealengine.com/5.0/en-US/world-partition-in-unreal-eng
   - This makes it possible to have worlds broken up into smaller chunks so that only the relevant parts of the world are taking up resources and being rendered at any point. 
   - If done properly, this allows for the creation of *very large*, seamless games that can make the player feel as if they are playing within a world that dwarfs them in size.
 
+### How to make it happen
 
+1. Choose a level *(the level you wish to stream in)*
+
+2. at the top click on **Windows** then **Levels** like so :
+
+ <p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Levels%20Tab.png">
+ </p>
+
+3. Then either add existing or create a new level to stream in the Levels window
+  <p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Level%20Dropdown.png">
+ </p>
+
+4. you can switch between levels with this at the bottom right of your editor *(be careful to be on the right level when you make changes~~~~)*
+
+ <p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Levels%20Switch.png">
+ </p>
+
+5. 
