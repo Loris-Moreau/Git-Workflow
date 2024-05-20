@@ -18,13 +18,16 @@ The [docs](https://docs.unrealengine.com/5.0/en-US/world-partition-in-unreal-eng
 ## Level Streaming
 
 - The [Official Doc](https://dev.epicgames.com/documentation/en-us/unreal-engine/level-streaming-in-unreal-engine)
+
 - Level Streaming makes it possible to load and unload map files into memory as well as toggle their visibility during play. 
   - This makes it possible to have worlds broken up into smaller chunks so that only the relevant parts of the world are taking up resources and being rendered at any point. 
   - If done properly, this allows for the creation of *very large*, seamless games that can make the player feel as if they are playing within a world that dwarfs them in size.
 
+
 ### How to make it happen
 
 1. Choose a level *(the level you wish to stream in)*
+
 
 2. at the top click on **Windows** then **Levels** like so :
 
@@ -37,9 +40,27 @@ The [docs](https://docs.unrealengine.com/5.0/en-US/world-partition-in-unreal-eng
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Level%20Dropdown.png">
  </p>
 
-4. you can switch between levels with this at the bottom right of your editor *(be careful to be on the right level when you make changes~~~~)*
+4. you can switch between levels with this at the bottom right of your editor *(be careful to be on the right level when you make changes)*
 
  <p align="center">
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Level%20Switch.png">
+ </p>
+
+### Now to load / unload via Blueprint
+
+1. Create an actor blueprint
+
+2. add a box collision *(or whatever you want that will trigger)*
+
+3. add these nodes *(the events can be replaced by any trigger you wish)*
+
+ <p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20LoadUnload%20From%20Blueprint.png">
+ </p>
+
+4. Then place the blueprint in your scene *(make sure you are on the persistent scene)*
+
+ <p align="center">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Level.png">
  </p>
 
