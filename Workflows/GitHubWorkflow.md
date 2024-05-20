@@ -84,17 +84,22 @@ Success look like this :
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Stash%20Ref.png">
 </p>
 
+
 ### Disconecting Errors 
 
 12. In case of Disconect
 
 <p align="center">
-   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Disconect%20Ref.jpg">
+   <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Disconnect%20Ref.jpg">
 </p>
 
 - - a. Check your internet connection
+
   - b. Close & reopen Github Desktop
-  - c. hi
+
+  - c. If you have *too many* files GitHub just won't be able to push, either GitHub, your ISP, or something in between will close the connection
+  - - 1. There are various limits in place for very large repositories including individual file *(blob)* sizes, as well as per-push limits. Check to make sure that you haven't accidentally included large binary files in your repository that shouldn't be there.
+
 
 13. Commit your changes *(see convention further down)* and push. 
    - After waiting for the push to complete, go on the Sheet and *free your files*.
@@ -145,7 +150,7 @@ Modified files should be presented as such :
 
 In case of “Assets” or “Refactor” and/or if there are more than 10 affected files, feel free to skip that step.
 
-*(ps : if there are more than 7 modified files you should commit more often)*
+***(ps : if there are more than 7 modified files you should commit more often)***
 
 <br>
 <br>
