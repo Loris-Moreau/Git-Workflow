@@ -103,6 +103,7 @@ Success look like this :
 
 13. Commit your changes *(see convention further down)* and push. 
    - After waiting for the push to complete, go on the Sheet and *free your files*.
+   - *Remember that if there are too many files or if certain files are too large your commits won't go trough.*
 
 <p align="center">
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Push%20Ref.png">
@@ -150,7 +151,7 @@ Modified files should be presented as such :
 
 In case of “Assets” or “Refactor” and/or if there are more than 10 affected files, feel free to skip that step.
 
-***(ps : if there are more than 7 modified files you should commit more often)***
+***(ps : if there are more than 10 modified files you should commit more often)***
 
 <br>
 <br>
