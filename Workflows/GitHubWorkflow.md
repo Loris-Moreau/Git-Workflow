@@ -100,6 +100,7 @@ Success look like this :
   - c. If you have *too many* files GitHub just won't be able to push, either GitHub, your ISP, or something in between will close the connection
   - - 1. There are various limits in place for very large repositories including individual file *(blob)* sizes, as well as per-push limits. Check to make sure that you haven't accidentally included large binary files in your repository that shouldn't be there.
 
+<br>
 
 13. Commit your changes *(see convention further down)* and push. 
    - After waiting for the push to complete, go on the Sheet and *free your files*.
