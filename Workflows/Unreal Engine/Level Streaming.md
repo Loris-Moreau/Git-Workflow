@@ -303,14 +303,8 @@ void ALevelStreamerActor::OverlapEnds(UPrimitiveComponent* OverlappedComponent, 
 }
 ```
 
-3. in your constructor
+3. In your LevelStreamerActor constructor : 
 
 ```
 OverlapVolume->OnComponentEndOverlap.AddUniqueDynamic(this, &ALevelStreamerActor::OverlapEnds);
 ```
-
-
-
-
-
-
