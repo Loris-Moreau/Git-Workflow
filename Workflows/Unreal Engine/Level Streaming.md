@@ -13,9 +13,10 @@ Also check out [World Partition](https://github.com/Loris-Moreau/Git-Workflow/bl
 
 ### How to make it happen
 
-1. Choose a level *(the level you wish to stream in)*
+1. Choose a level *(the level you wish to stream in)*,
+   - This will be your persistent level.
 
-2. at the top click on **Windows** then **Levels** like so :
+3. at the top click on **Windows** then **Levels** like so :
 
  <p align="center">
    <img src="https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Levels%20Tab.png">
@@ -124,6 +125,8 @@ After creating your different levels and adding them to the persisstent level li
 
 1. Create an actor C++ class *(call it whatever you want, "LevelStreamingActor" is a good one)*
 
+### Loading
+
 2. In the **.h** file, declare an *OverlapVolume* that is *VisibleAnywhere*, *BlueprintReadOnly*, and has the *AllowPrivateAccess* meta flag : 
 
 ```
@@ -187,20 +190,124 @@ if (OtherActor == MyCharacter && LevelToLoad != "")
 OverlapVolume->OnComponentBeginOverlap.AddUniqueDynamic(this, &ALevelStreamerActor::OverlapBegins);
 ```
 
+10. Your **.h** should look like so :
 
+```
+ #pragma once
+ 
+     #include "GameFramework/Actor.h"
+     #include "LevelStreamerActor.generated.h"
+ 
+     UCLASS()
+     class LEVELS_API ALevelStreamerActor : public AActor
+     {
+         GENERATED_BODY()
+ 
+     public:
+         // Sets default values for this actor's properties
+         ALevelStreamerActor();
+ 
+         // Called every frame
+         virtual void Tick( float DeltaSeconds ) override;
+ 
+     protected:
+ 
+         // Called when the game starts or when spawned
+         virtual void BeginPlay() override;
+ 
+         UFUNCTION()
+         void OverlapBegins(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
+ 
+         UPROPERTY(EditAnywhere)
+         FName LevelToLoad;
+ 
+     private:
+         // Overlap volume to trigger level streaming
+         UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+         UBoxComponent* OverlapVolume;
+ 
+     };
+```
 
+11. And your **.cpp** should look like this : 
 
+```
+#include "Levels.h"
+     #include "Kismet/GameplayStatics.h"
+     #include "LevelStreamerActor.h"
+ 
+     // Sets default values
+     ALevelStreamerActor::ALevelStreamerActor()
+     {
+         // Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+         PrimaryActorTick.bCanEverTick = true;
+ 
+         OverlapVolume = CreateDefaultSubobject<UBoxComponent>(TEXT("OverlapVolume"));
+         RootComponent = OverlapVolume;
+ 
+         OverlapVolume->OnComponentBeginOverlap.AddUniqueDynamic(this, &ALevelStreamerActor::OverlapBegins);
+     }
+     // Called when the game starts or when spawned
+     void ALevelStreamerActor::BeginPlay()
+     {
+         Super::BeginPlay();
+ 
+     }
+ 
+     // Called every frame
+     void ALevelStreamerActor::Tick( float DeltaTime )
+     {
+         Super::Tick( DeltaTime );
+ 
+     }
+ 
+     void ALevelStreamerActor::OverlapBegins(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+     {
+             ACharacter* MyCharacter = UGameplayStatics::GetPlayerCharacter(this, 0);
+             if (OtherActor == MyCharacter && LevelToLoad != "")
+             {
+                 FLatentActionInfo LatentInfo;
+                 UGameplayStatics::LoadStreamLevel(this, LevelToLoad, true, true, LatentInfo);
+             }
+     }
+```
 
+12. Compile your code, and do the live coding.
 
+13. Now you can place your actor in the level (the persistent one).
 
+14. ... and Test
 
+### Unloading
 
+To unload the level as your Character exits the *BoxComponent*, you will create an *OverlapEnds* function that calls `UGameplayStatics::UnloadStreamLevel` and bind it to *OnComponentEndOverlap*. 
 
+1. In the **.h** file :
 
+```
+UFUNCTION()
+	void OverlapEnds(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+```
 
+2. In the **.cpp** file :
 
+```
+void ALevelStreamerActor::OverlapEnds(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+    ACharacter* MyCharacter = UGameplayStatics::GetPlayerCharacter(this, 0);
+    if (OtherActor == MyCharacter && LevelToLoad != "")
+    {
+        FLatentActionInfo LatentInfo;
+        UGameplayStatics::UnloadStreamLevel(this, LevelToLoad, LatentInfo);
+    }
+}
+```
 
+3. in your constructor
 
+```
+OverlapVolume->OnComponentEndOverlap.AddUniqueDynamic(this, &ALevelStreamerActor::OverlapEnds);
+```
 
 
 
