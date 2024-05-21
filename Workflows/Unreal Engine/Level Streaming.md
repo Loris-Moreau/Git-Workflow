@@ -116,3 +116,94 @@ If the viewpoint is inside at least one Level Streaming Volume, a request is iss
 5. Looks like this
 
 ![LS Volume Showcase](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/LS%20Volume%20Showcase.gif)
+
+
+## Now In C++
+
+After creating your different levels and adding them to the persisstent level like seen above : 
+
+1. Create an actor C++ class *(call it whatever you want, "LevelStreamingActor" is a good one)*
+
+2. In the **.h** file, declare an *OverlapVolume* that is *VisibleAnywhere*, *BlueprintReadOnly*, and has the *AllowPrivateAccess* meta flag : 
+
+```
+private:
+     // Overlap volume to trigger level streaming
+     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+     UBoxComponent* OverlapVolume;
+```
+
+3. In the **.cpp** file, in the *LevelStreamerActor constructor*, create the *OverlapVolume* and make it the *RootComponent* : 
+
+```
+OverlapVolume = CreateDefaultSubobject<UBoxComponent>(TEXT("OverlapVolume"));
+RootComponent = OverlapVolume;
+```
+
+4. In the **.h** file, declare a protected *OverlapBegins* function, which will be bound to the *BoxComponent's OnComponentBeginOverlap* function. This binding means that *OverlapBegins* must be tagged with a *UFUNCTION* macro, and must have the same signature as *OnComponentBeginOverlap* : 
+
+```
+protected:
+     UFUNCTION()
+     void OverlapBegins(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult);
+```
+
+5. Still in the **.h** file, create a protected FName variable that is EditAnywhere called LevelToLoad. This will enable you to change the LevelToLoad on a per-instance basis :
+
+```
+UPROPERTY(EditAnywhere)
+FName LevelToLoad;
+```
+
+6. In the **.cpp** file, include the *GameplayStatics* Library : 
+
+```
+#include "Kismet/GameplayStatics.h"
+```
+
+7.  Still in the **.cpp** file, begin defining the function. You can use the GameplayStatics function `GetPlayerCharacter` to get the Character at index 0 : 
+
+```
+void ALevelStreamerActor::OverlapBegins(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+      ACharacter* MyCharacter = UGameplayStatics::GetPlayerCharacter(this, 0);
+}
+
+```
+
+8. After getting MyCharacter, check it against the OtherActor overlapping your BoxComponent. Also, verify that LevelToLoad is not empty, then call LoadStreamLevel.
+
+```
+if (OtherActor == MyCharacter && LevelToLoad != "")
+{
+    FLatentActionInfo LatentInfo;
+    UGameplayStatics::LoadStreamLevel(this, LevelToLoad, true, true, LatentInfo);
+}
+```
+
+9. In your LevelStreamerActor constructor, bind OverlapBegins to your BoxComponent's OnComponentBeginOverlap.
+
+```
+OverlapVolume->OnComponentBeginOverlap.AddUniqueDynamic(this, &ALevelStreamerActor::OverlapBegins);
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
