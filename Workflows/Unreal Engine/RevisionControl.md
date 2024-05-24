@@ -44,7 +44,7 @@ Now if you create a file it will look like this :
 ![New file](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/RC%20New%20File%20Create.png)
 
 
-Once you save it, it will look like so :
+Once you save it, it will look like this:
 
 ![New file Saved](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/RC%20New%20File%20Save.png)
 
@@ -71,12 +71,42 @@ You can describe your commit like so *(or use the [commit convention](https://gi
 ![New file Saved](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/RC%20Submit%203.png)
 
 
-This message will apear to tell you it succeeded :
+This message will appear to tell you it succeeded :
 
 ![Commit succes](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/RC%20UE%20Commit%20Log.png)
 
+If you wish to view your changes directly in Unreal just double-click on the change, and this will appear
+
+![Commit succes](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/RC%20Changelog.png)
+
+clicking on the changes in the dropdown will show a visual of your changes
+
+![Commit succes](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/RC%20Changelog%20Desc.png)
+
+<br>
+
+Now on Github Desktop add an existing repository
+
+![Commit succes](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Create%20Repo.png)
+
+And select your Revision folder, it should have created the repository locally
+
+if it didn't create it
+- create a new repository of the same name and path than your project folder
+
+and now publish it, you now have a Git Rpository with Revision Control.
 
 ## What else can you do ?
+
+
+
+
+
+
+
+
+
+
 
 
 
