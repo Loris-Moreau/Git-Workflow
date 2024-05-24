@@ -2,7 +2,7 @@
 ### All my Github Workflows
 
 > [!Note]
-> Hi, These are my personal Workflows I use for Github.
+> Hi, These are my personal Workflows, which I use by myself & in teams.
 
 Workflows : 
 - [GitHub](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/GitHubWorkflow.md)
