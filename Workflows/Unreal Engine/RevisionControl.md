@@ -5,6 +5,8 @@ Revision Control is also called Version Control
 > Git Bash or GitHub Desktop will work for this.
 > 
 > You just need Git on your machine.
+>
+> *Basically comiting directly from Unreal*
 
 ## Initialization
 
