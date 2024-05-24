@@ -96,6 +96,8 @@ if it didn't create it
 
 and now publish it, you now have a Git Rpository with Revision Control.
 
+![Commit succes](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Publish.png)
+
 ## What else can you do ?
 
 
