@@ -1,12 +1,16 @@
 # Revision Control in Unreal with Git
 
 Revision Control is also called Version Control
-> [!Note]
+> [!Important]
 > Git Bash or GitHub Desktop will work for this.
 > 
 > You just need Git on your machine.
->
-> *Basically comiting directly from Unreal*
+
+Check the [GitHub Workflow](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/GitHubWorkflow.md) for more info on how to use GitHub.
+
+>[!Note]
+>  
+> *This is basically comiting directly from Unreal*
 
 ## Initialization
 
@@ -99,24 +103,4 @@ if it didn't create it
 and now publish it, you now have a Git Rpository with Revision Control.
 
 ![Commit succes](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Images/Git%20Publish.png)
-
-## What else can you do ?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
