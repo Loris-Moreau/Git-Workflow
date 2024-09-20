@@ -1,5 +1,5 @@
 # Git-Workflow
-### All my Github Workflows
+### All my Workflows
 
 > [!Note]
 > Hi, These are my personal Workflows, which I use by myself & in teams.
