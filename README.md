@@ -15,5 +15,6 @@ Workflows :
 - [Godot](https://github.com/Loris-Moreau/Git-Workflow/tree/main/Workflows/Godot)
 
 
-- [Environments](https://github.com/Loris-Moreau/Git-Workflow/tree/main/Workflows/Environement) : 
+- [Environments](https://github.com/Loris-Moreau/Git-Workflow/tree/main/Workflows/Environement) :
+  - [Gitignore](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Environement/gitignore)
   - [YALM](https://github.com/Loris-Moreau/Git-Workflow/blob/main/Workflows/Environement)
