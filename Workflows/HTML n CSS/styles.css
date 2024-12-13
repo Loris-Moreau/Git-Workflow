@@ -1,0 +1,691 @@
+/* Background pattern */
+.background 
+{
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(120deg, #32373c, #41474d);
+    background-size: cover;
+    z-index: -1; /* Ensures that the background is behind all content */
+}
+
+/* Consistent padding around sections */
+section 
+{
+    padding: 20px;
+    margin: 10px 0;
+}
+
+/* Header and title */
+header
+{
+    top: 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+
+header h1
+{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    margin: 0;
+}
+
+h2
+{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    color: rgba(240, 240, 240, 1);
+    font-size: 1.75em;
+    margin: 0;
+}
+
+h3
+{
+    position: relative;
+    width: 95%;
+    text-align: center;
+    padding: 7px 0 7px 2.5%;
+    color: rgb(200, 200, 200);
+    font-size: 1.5em;
+    margin: 0;
+    word-wrap: normal;
+    overflow-wrap: anywhere;
+}
+
+h4
+{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    color: rgb(190, 190, 190);
+    font-size: 1.25em;
+    margin: 0;
+}
+
+h5
+{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 2px 0;
+    color: rgb(175, 175, 175);
+    font-size: 0.95em;
+    margin: 0;
+}
+
+.underline
+{
+    text-decoration: underline;
+    text-decoration-color: orangered; /* Color */
+    text-decoration-thickness: 3px; /* Size */
+}
+
+/* Button */
+button{
+    padding: 10px 20px;
+    background-color: rgba(170,170,170,0.7);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    
+    /* Settings */
+    --Button-Base-Scale: 1;
+    --Button-Active-Scale: 0.95;
+    --Button-Hover-Scale: 1.05;
+}
+button:hover{
+    background-color: rgba(155,155,155,0.6);
+    
+    transform: scale(var(--Button-Hover-Scale));
+    
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+}
+
+button:active{
+    background-color: rgba(195,195,195,0.75);
+    
+    transform: scale(var(--Button-Active-Scale));
+}
+
+/* Shine */
+.btn-shine
+{
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 12px 17px;
+    color: #fff;
+    background: linear-gradient(to right, #86cecb 0, #86cecb 10%, #e1e1e1 20%) 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 35px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: Arial, Open-Dyslexic, Verdana, Helvetica, monospace;
+}
+
+@keyframes shine 
+{
+    0% 
+    {
+        background-position: 0;
+    }
+    60% 
+    {
+        background-position: 180px;
+    }
+    100% 
+    {
+        background-position: 200px;
+    }
+}
+
+/* Images */
+img{
+    max-width: 100%;
+    width: 25%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 4px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+/* Video Player */
+.video-wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Video Container */
+.video-container
+{
+    position: relative;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    
+    max-width: 640px;
+    max-height: 360px;
+    
+    padding: 16% 9%;
+    
+    background: #373B3E;
+    overflow: hidden;
+}
+
+/* Video */
+.video-container iframe
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+/* Social media icons */
+ul
+{
+    list-style: none;
+}
+
+.example-2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.example-2 .icon-content
+{
+    margin: 0 15px;
+    position: relative;
+}
+.example-2 .icon-content .tooltip
+{
+    position: absolute;
+    bottom: 115%;
+    left: 20%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 16px;
+    transition: all 0.42s ease;
+}
+.example-2 .icon-content:hover .tooltip
+{
+    opacity: 1;
+    visibility: visible;
+    top: -35px;
+}
+.example-2 .icon-content a
+{
+    bottom: 2.5%;
+    right: 15px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+
+}
+.example-2 .icon-content a:hover
+{
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+.example-2 .icon-content a svg
+{
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+}
+.example-2 .icon-content a:hover
+{
+    color: white;
+}
+.example-2 .icon-content a .filled
+{
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #000;
+    transition: all 0.3s ease-in-out;
+}
+
+.example-2 .icon-content a:hover .filled
+{
+    height: 100%;
+}
+
+.example-2 .icon-content a[data-social="linkedin"] .filled,
+.example-2 .icon-content a[data-social="linkedin"] ~ .tooltip
+{
+    background-color: #0274b3;
+}
+
+.example-2 .icon-content a[data-social="github"] .filled,
+.example-2 .icon-content a[data-social="github"] ~ .tooltip
+{
+    background-color: #24262a;
+}
+
+.example-2 .icon-content a[data-social="youtube"] .filled,
+.example-2 .icon-content a[data-social="youtube"] ~ .tooltip
+{
+    background-color: #ff0000;
+}
+
+/* Dropdown */
+.popup 
+{
+    --burger-line-width: 1.125em;
+    --burger-line-height: 0.125em;
+    --burger-offset: 0.625em;
+    --burger-bg: rgba(175, 175, 175, 1);
+    --burger-color: rgb(34, 34, 34);
+    --burger-line-border-radius: 0.1875em;
+    --burger-diameter: 2.125em;
+    --burger-btn-border-radius: calc(var(--burger-diameter) / 2);
+    --burger-line-transition: .3s;
+    --burger-transition: all .1s ease-in-out;
+    --burger-hover-scale: 1.1;
+    --burger-active-scale: .95;
+    --burger-enable-outline-color: var(--burger-bg);
+    --burger-enable-outline-width: 0.125em;
+    --burger-enable-outline-offset: var(--burger-enable-outline-width);
+    
+    /* nav */
+    --nav-padding-x: 0.25em;
+    --nav-padding-y: 0.625em;
+    --nav-border-radius: 0.375em;
+    --nav-border-color: rgb(200, 200, 200);
+    --nav-border-width: 0.0625em;
+    --nav-shadow-color: rgba(0, 0, 0, .2);
+    --nav-shadow-width: 0 1px 5px;
+    --nav-bg: rgb(230, 230, 230);
+    --nav-font-family: Arial, Open-Dyslexic, Verdana, Helvetica, monospace;
+    --nav-text-color: rgba(25, 25, 25, 1);
+    --nav-default-scale: .8;
+    --nav-active-scale: 1;
+    --nav-position-left: 0;
+    --nav-position-right: unset;
+    /* if you want to change sides just switch one property */
+    /* from properties to "unset" and the other to 0 */
+    
+    /* title */
+    --nav-title-size: 0.625em;
+    --nav-title-color: rgb(119, 119, 119);
+    --nav-title-padding-x: 1rem;
+    --nav-title-padding-y: 0.25em;
+    
+    /* nav button */
+    --nav-button-padding-x: 1rem;
+    --nav-button-padding-y: 0.375em;
+    --nav-button-border-radius: 0.375em;
+    --nav-button-font-size: 10px;
+    --nav-button-hover-bg: rgb(100, 149, 237);
+    --nav-button-hover-text-color: rgb(255, 255, 255);
+    --nav-button-distance: 0.875em;
+    
+    /* underline */
+    --underline-border-width: 0.0625em;
+    --underline-border-color: rgb(204, 204, 204);
+    --underline-margin-y: 0.3125em;
+}
+
+/* popup settings */
+.popup
+{
+    display: inline-block;
+    text-rendering: optimizeLegibility;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    
+    /* Box Size */
+    width: 5.5%;
+}
+
+.popup input
+{
+    display: none;
+}
+
+.burger
+{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background: var(--burger-bg);
+    width: var(--burger-diameter);
+    height: var(--burger-diameter);
+    border-radius: var(--burger-btn-border-radius);
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: var(--burger-transition);
+    outline: var(--burger-enable-outline-width) solid transparent;
+    outline-offset: 0;
+}
+
+.burger span
+{
+    height: var(--burger-line-height);
+    width: var(--burger-line-width);
+    background: var(--burger-color);
+    border-radius: var(--burger-line-border-radius);
+    position: absolute;
+    transition: var(--burger-line-transition);
+}
+
+.burger span:nth-child(1)
+{
+    top: var(--burger-offset);
+}
+
+.burger span:nth-child(2)
+{
+    bottom: var(--burger-offset);
+}
+
+.burger span:nth-child(3)
+{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.popup-window
+{
+    transform: scale(var(--nav-default-scale));
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    padding: var(--nav-padding-y) var(--nav-padding-x);
+    background: var(--nav-bg);
+    font-family: var(--nav-font-family), serif;
+    font-size: 15px;
+    color: var(--nav-text-color);
+    border-radius: var(--nav-border-radius);
+    box-shadow: var(--nav-shadow-width) var(--nav-shadow-color);
+    border: var(--nav-border-width) solid var(--nav-border-color);
+    top: calc(var(--burger-diameter) + var(--burger-enable-outline-width) + var(--burger-enable-outline-offset));
+    left: var(--nav-position-left);
+    right: var(--nav-position-right);
+    transition: var(--burger-transition);
+}
+
+.popup-window legend
+{
+    padding: var(--nav-title-padding-y) var(--nav-title-padding-x);
+    margin: 0;
+    color: var(--nav-title-color);
+    font-size: var(--nav-title-size);
+    text-transform: uppercase;
+}
+
+.popup-window ul
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.popup-window ul button
+{
+    outline: none;
+    width: 100%;
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    color: var(--burger-color);
+    font-size: var(--nav-button-font-size);
+    padding: var(--nav-button-padding-y) var(--nav-button-padding-x);
+    white-space: nowrap;
+    border-radius: var(--nav-button-border-radius);
+    cursor: pointer;
+    column-gap: var(--nav-button-distance);
+}
+
+/* unselected color */
+.popup-window ul li:nth-child(1) svg,
+.popup-window ul li:nth-child(2) svg,
+.popup-window ul li:nth-child(3) svg,
+.popup-window ul li:nth-child(4) svg
+{
+    color: rgb(25, 25, 25);
+}
+
+.popup-window hr
+{
+    margin: var(--underline-margin-y) 0;
+    border: none;
+    border-bottom: var(--underline-border-width) solid var(--underline-border-color);
+}
+
+/* actions */
+.popup-window ul button:hover,
+.popup-window ul button:focus-visible,
+.popup-window ul button:hover svg,
+.popup-window ul button:focus-visible svg
+{
+    color: var(--nav-button-hover-text-color);
+    background: var(--nav-button-hover-bg);
+}
+
+.burger:hover
+{
+    transform: scale(var(--burger-hover-scale));
+}
+
+.burger:active
+{
+    transform: scale(var(--burger-active-scale));
+}
+
+.burger:focus:not(:hover)
+{
+    outline-color: var(--burger-enable-outline-color);
+    outline-offset: var(--burger-enable-outline-offset);
+}
+
+.popup input:checked+.burger span:nth-child(1)
+{
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+.popup input:checked+.burger span:nth-child(2)
+{
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+}
+
+.popup input:checked+.burger span:nth-child(3)
+{
+    transform: translateX(calc(var(--burger-diameter) * -1 - var(--burger-line-width)));
+}
+
+.popup input:checked~nav
+{
+    transform: scale(var(--nav-active-scale));
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Links */
+a 
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+a:link 
+{
+    color: deepskyblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited 
+{
+    color: royalblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover 
+{
+    color: orchid;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active 
+{
+    color: darkorchid;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* Cards */
+.card {
+    box-sizing: border-box;
+    /*width: 500px;*/
+    width: 30%;
+    height: 125px;
+    background: rgba(145, 145, 145, 0.75);
+    border: 2px solid black;
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.42s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    margin: 7px;
+}
+
+.card:hover 
+{
+    border: 2px solid lightgray;
+    transform: scale(1.075);
+    margin: 15px;
+    
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+}
+
+.card:active 
+{
+    transform: scale(0.93);
+    margin: 5px;
+}
+
+/* Code Snippet */
+.snippet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Swindow {
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    
+    position: relative;
+    height: auto;
+    width: auto;
+    background-color: rgb(61, 66, 72);
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.Swindow-title {
+    height: 30px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.Swindow-title p {
+    color: rgb(200, 200, 200);
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+.Sconsole {
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    overflow: auto;
+}
+
+.Sconsole pre {
+    margin: 0;
+    padding: 17px;
+    font-size: 15px;
+}
+
+.Sconsole pre code {
+    color: rgb(25, 245, 25);
+    outline: none;
+    font-size: 14px;
+}
